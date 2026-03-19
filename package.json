@@ -1,0 +1,37 @@
+{
+  "name": "trip-planner",
+  "version": "1.0.0",
+  "description": "India Trip Planner - Bucket list app for Indian destinations",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "cd client && npm install && npm run build",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "node server.js",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "seed": "node scripts/seedDestinations.js",
+    "seed:users": "node scripts/seedUsers.js",
+    "fetch-images": "node scripts/fetchCoverImages.js",
+    "fetch-gallery-images": "node scripts/fetchAndStoreImages.js",
+    "fetch-activity-images": "node scripts/fetchActivityImages.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^8.3.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.0.3",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

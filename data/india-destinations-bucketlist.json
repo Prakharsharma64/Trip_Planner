@@ -1,0 +1,1351 @@
+{
+  "_meta": {
+    "description": "India travel destinations for bucket-list app - 28 states, 8 UTs",
+    "schemaVersion": "1.0",
+    "budgetNote": "All ranges are per person per day in INR (₹)"
+  },
+  "Andhra Pradesh": [
+    {
+      "name": "Tirumala & Venkateswara Temple",
+      "keyAttractions": ["Venkateswara Temple", "Seven Hills", "Sri Venkateswara National Park", "Talakona Falls"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Sep–Mar (avoid summer)",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Venkateswara_Temple,_Tirumala"
+    },
+    {
+      "name": "Araku Valley",
+      "keyAttractions": ["Coffee plantations", "Borra Caves", "Tribal Museum", "Padmapuram Gardens", "Chaparai Waterfalls"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Araku_Valley"
+    },
+    {
+      "name": "Visakhapatnam",
+      "keyAttractions": ["Rushikonda Beach", "Submarine Museum (INS Kurusura)", "Kailasagiri", "Borra Caves", "Araku train journey"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Visakhapatnam"
+    },
+    {
+      "name": "Belum Caves",
+      "keyAttractions": ["Longest cave system in India", "Stalactite formations", "Freshwater galleries", "Buddhist-era artifacts"],
+      "budgetRange": "₹800–2,000",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Belum_Caves"
+    },
+    {
+      "name": "Gandikota (Grand Canyon of India)",
+      "keyAttractions": ["Penna River gorge", "Madhavaraya Temple", "Ranganatha Temple", "Camping", "Stargazing"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Feb",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Gandikota"
+    },
+    {
+      "name": "Lambasingi (Andhra's Kashmir)",
+      "keyAttractions": ["Only place in AP with snowfall", "Misty valleys", "Coffee estates", "Offbeat trekking"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Nov–Jan (for cold)",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Lambasingi"
+    }
+  ],
+  "Arunachal Pradesh": [
+    {
+      "name": "Tawang",
+      "keyAttractions": ["Tawang Monastery (India's largest)", "Sela Pass", "Madhuri Lake", "Bum La Pass", "Nuranang Falls"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Apr–Oct (permits required)",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Tawang"
+    },
+    {
+      "name": "Ziro Valley",
+      "keyAttractions": ["Ziro Music Festival", "Apatani rice fields", "Tarin Fish Farm", "Kile Pakho", "Talley Valley"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Mar–May, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Ziro"
+    },
+    {
+      "name": "Itanagar",
+      "keyAttractions": ["Ita Fort", "Ganga Lake (Geker Sinying)", "Jawaharlal Nehru Museum", "Gompa Buddha Vihara"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Apr",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Itanagar"
+    },
+    {
+      "name": "Bomdila",
+      "keyAttractions": ["Bomdila Monastery", "Eagles Nest Wildlife Sanctuary", "Craft Centre", "Orchidarium", "View of Kangto peak"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Mar–Jun, Sep–Nov",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Bomdila"
+    },
+    {
+      "name": "Namdapha National Park",
+      "keyAttractions": ["Tiger reserve", "Four big cats habitat", "Hoolock gibbons", "Clouded leopards", "Rainforest trekking"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Nov–Apr",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Namdapha_National_Park"
+    }
+  ],
+  "Assam": [
+    {
+      "name": "Kaziranga National Park",
+      "keyAttractions": ["One-horned rhinoceros", "Elephant & jeep safaris", "UNESCO World Heritage Site", "Avifauna"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Nov–Apr",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kaziranga_National_Park"
+    },
+    {
+      "name": "Guwahati",
+      "keyAttractions": ["Kamakhya Temple", "Umananda Island", "Assam State Museum", "Pobitora Sanctuary (1 hr)"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Apr",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Guwahati"
+    },
+    {
+      "name": "Majuli",
+      "keyAttractions": ["World's largest river island", "Vaishnavite Satras", "Mishing tribal culture", "Birding", "Pottery villages"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Majuli"
+    },
+    {
+      "name": "Manas National Park",
+      "keyAttractions": ["UNESCO site", "Tiger reserve", "Pyramidalis dolphin", "Manas River", "Wildlife safari"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Nov–Apr",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Manas_National_Park"
+    },
+    {
+      "name": "Haflong (Scotland of Assam)",
+      "keyAttractions": ["Jatinga bird mystery", "Haflong Lake", "Maibong", "Trekking", "Orange orchards"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Sep–May",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Haflong"
+    }
+  ],
+  "Bihar": [
+    {
+      "name": "Bodh Gaya",
+      "keyAttractions": ["Mahabodhi Temple (UNESCO)", "Bodhi Tree", "Buddhist monasteries", "Great Buddha Statue"],
+      "budgetRange": "₹1,000–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Bodh_Gaya"
+    },
+    {
+      "name": "Nalanda",
+      "keyAttractions": ["Nalanda University ruins (UNESCO)", "Nalanda Archaeological Museum", "Xuanzang Memorial"],
+      "budgetRange": "₹800–2,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Nalanda"
+    },
+    {
+      "name": "Patna",
+      "keyAttractions": ["Takht Sri Patna Sahib", "Patna Museum", "Golghar", "Kumhrar", "Agam Kuan"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Patna"
+    },
+    {
+      "name": "Rajgir",
+      "keyAttractions": ["Griddhakuta Hill", "Vishwa Shanti Stupa", "Hot springs", "Son Bhandar Caves", "Cycling"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Rajgir"
+    },
+    {
+      "name": "Vaishali",
+      "keyAttractions": ["Birthplace of Mahavira", "Ashoka Pillar", "Buddha stupa", "Archaeological museum"],
+      "budgetRange": "₹800–2,000",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Vaishali_(ancient_city)"
+    }
+  ],
+  "Chhattisgarh": [
+    {
+      "name": "Chitrakote Falls",
+      "keyAttractions": ["Niagara of India", "Indravati River", "Boat rides", "Sunset views"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Jul–Dec (peak monsoon)",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Chitrakote_Falls"
+    },
+    {
+      "name": "Bastar",
+      "keyAttractions": ["Tribal culture", "Chitrakote", "Tirathgarh Falls", "Kanger Valley", "Dussehra (unique)"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Bastar_district"
+    },
+    {
+      "name": "Sirpur",
+      "keyAttractions": ["Laxman Temple", "Buddhist monasteries", "Archaeological ruins", "Maha Shivaratri fair"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Sirpur,_Chhattisgarh"
+    },
+    {
+      "name": "Barnawapara Wildlife Sanctuary",
+      "keyAttractions": ["Leopards", "Sloth bears", "Gaurs", "Safari", "Offbeat wildlife"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Nov–Jun",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Barnawapara_Wildlife_Sanctuary"
+    }
+  ],
+  "Goa": [
+    {
+      "name": "North Goa Beaches",
+      "keyAttractions": ["Calangute", "Baga", "Anjuna", "Vagator", "Chapora Fort", "Night markets"],
+      "budgetRange": "₹2,000–6,000",
+      "bestSeason": "Nov–Feb",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Goa"
+    },
+    {
+      "name": "South Goa",
+      "keyAttractions": ["Palolem", "Colva", "Benaulim", "Cabo de Rama", "Butterfly Beach", "Agonda"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Nov–Feb",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/South_Goa"
+    },
+    {
+      "name": "Old Goa",
+      "keyAttractions": ["Basilica of Bom Jesus (UNESCO)", "Se Cathedral", "Archaeological Museum", "Churches"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Old_Goa"
+    },
+    {
+      "name": "Dudhsagar Falls",
+      "keyAttractions": ["Tiered waterfall", "Trek/train access", "Mollem National Park", "Monsoon magic"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Jun–Sep",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Dudhsagar_Falls"
+    },
+    {
+      "name": "Divar Island",
+      "keyAttractions": ["Quaint villages", "Portuguese heritage", "Bicycle tours", "Festivals", "Offbeat"],
+      "budgetRange": "₹1,500–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Divar_Island"
+    }
+  ],
+  "Gujarat": [
+    {
+      "name": "Statue of Unity & Kevadia",
+      "keyAttractions": ["World's tallest statue", "Sardar Sarovar Dam", "Valley of Flowers", "Jungle safari"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Statue_of_Unity"
+    },
+    {
+      "name": "Rann of Kutch",
+      "keyAttractions": ["White desert", "Rann Utsav (Nov–Feb)", "Kala Dungar", "Wild Ass Sanctuary", "Craft villages"],
+      "budgetRange": "₹2,500–8,000",
+      "bestSeason": "Nov–Feb",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Rann_of_Kutch"
+    },
+    {
+      "name": "Gir National Park",
+      "keyAttractions": ["Asiatic lions", "Sasan Gir safari", "Only wild lion habitat in Asia", "Jungle lodges"],
+      "budgetRange": "₹3,000–7,000",
+      "bestSeason": "Dec–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Gir_Forest_National_Park"
+    },
+    {
+      "name": "Dwarka & Somnath",
+      "keyAttractions": ["Dwarkadhish Temple", "Somnath Temple", "Beyt Dwarka", "Nageshwar Jyotirlinga"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Dwarka"
+    },
+    {
+      "name": "Rani ki Vav (Patan)",
+      "keyAttractions": ["UNESCO stepwell", "11th-century architecture", "Intricate carvings", "Patan Patola"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Rani_ki_Vav"
+    },
+    {
+      "name": "Dholavira",
+      "keyAttractions": ["UNESCO Harappan site", "Ancient water management", "Kutch desert", "Fossil park"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Nov–Feb",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Dholavira"
+    }
+  ],
+  "Haryana": [
+    {
+      "name": "Kurukshetra",
+      "keyAttractions": ["Bhagavad Gita birthplace", "Jyotisar", "Brahma Sarovar", "Sthaneshwar Mahadev", "48 Kos Parikrama"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kurukshetra"
+    },
+    {
+      "name": "Gurugram",
+      "keyAttractions": ["DLF CyberHub", "Sultanpur Bird Sanctuary", "Kingdom of Dreams", "Museums", "Malls"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Gurgaon"
+    },
+    {
+      "name": "Sultanpur Bird Sanctuary",
+      "keyAttractions": ["Migratory birds", "Ramsar site", "Siberian cranes", "Walking trails", "Photography"],
+      "budgetRange": "₹500–1,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Sultanpur_National_Park"
+    },
+    {
+      "name": "Morni Hills",
+      "keyAttractions": ["Tikkar Tal", "Hills near Chandigarh", "Trekking", "Offbeat retreat"],
+      "budgetRange": "₹1,200–2,800",
+      "bestSeason": "Mar–Jun, Sep–Nov",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Morni_Hills"
+    }
+  ],
+  "Himachal Pradesh": [
+    {
+      "name": "Manali",
+      "keyAttractions": ["Rohtang Pass", "Solang Valley", "Hadimba Temple", "Old Manali", "Adventure sports"],
+      "budgetRange": "₹2,000–6,000",
+      "bestSeason": "Apr–Jun, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh"
+    },
+    {
+      "name": "Shimla",
+      "keyAttractions": ["The Ridge", "Kalka-Shimla Railway (UNESCO)", "Mall Road", "Jakhoo Temple", "Christ Church"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Mar–Jun, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Shimla"
+    },
+    {
+      "name": "Dharamshala & McLeod Ganj",
+      "keyAttractions": ["Dalai Lama Temple", "Tsuglagkhang", "Triund trek", "Tibetan culture", "Cafes"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Mar–Jun, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Dharamshala"
+    },
+    {
+      "name": "Spiti Valley",
+      "keyAttractions": ["Key Monastery", "Chandratal Lake", "Kunzum Pass", "Tabo", "High-altitude desert"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "May–Oct",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Spiti_Valley"
+    },
+    {
+      "name": "Kasol & Parvati Valley",
+      "keyAttractions": ["Tosh", "Kheerganga trek", "Malana", "Israeli cafes", "Hippie culture"],
+      "budgetRange": "₹1,200–3,500",
+      "bestSeason": "Apr–Jun, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kasol"
+    },
+    {
+      "name": "Bir Billing",
+      "keyAttractions": ["Paragliding capital", "Tibetan colony", "Billing take-off", " monasteries"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Sep–Nov, Mar–May",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Bir,_Himachal_Pradesh"
+    },
+    {
+      "name": "Dalhousie",
+      "keyAttractions": ["Khajjiar (mini Switzerland)", "Kalatop", "Panch Pulla", "Colonial charm"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Mar–Jun, Sep–Nov",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Dalhousie,_India"
+    }
+  ],
+  "Jharkhand": [
+    {
+      "name": "Ranchi",
+      "keyAttractions": ["Hundru Falls", "Jonha Falls", "Tagore Hill", "Ranchi Lake", "Pahari Mandir"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Ranchi"
+    },
+    {
+      "name": "Deoghar (Baidyanath Dham)",
+      "keyAttractions": ["Baidyanath Temple", "Shravani Mela", "Naulakha Temple", "Basukinath"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Mar (avoid Shravan rush)",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Deoghar"
+    },
+    {
+      "name": "Betla National Park",
+      "keyAttractions": ["Tiger reserve", "Palamau Fort", "Lodh Falls", "Elephants", "Safari"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Feb–Jun",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Betla_National_Park"
+    },
+    {
+      "name": "Shikharji (Parasnath)",
+      "keyAttractions": ["Jain pilgrimage", "20 Tirthankaras moksha site", "Trek to peak", "Temples"],
+      "budgetRange": "₹1,500–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Shikharji"
+    }
+  ],
+  "Karnataka": [
+    {
+      "name": "Bangalore",
+      "keyAttractions": ["Lalbagh", "Cubbon Park", "Bangalore Palace", "Pub culture", "Nandi Hills"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Sep–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Bangalore"
+    },
+    {
+      "name": "Hampi",
+      "keyAttractions": ["UNESCO ruins", "Virupaksha Temple", "Vittala Temple", "Sunset at Hemakuta", "Bouldering"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Feb",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Hampi"
+    },
+    {
+      "name": "Coorg (Kodagu)",
+      "keyAttractions": ["Coffee plantations", "Abbey Falls", "Raja's Seat", "Dubare elephant camp", "Talacauvery"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kodagu"
+    },
+    {
+      "name": "Gokarna",
+      "keyAttractions": ["Om Beach", "Kudle Beach", "Half Moon Beach", "Mahabaleshwar Temple", "Beach trek"],
+      "budgetRange": "₹1,000–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Gokarna,_Karnataka"
+    },
+    {
+      "name": "Mysore",
+      "keyAttractions": ["Mysore Palace", "Chamundi Hill", "Brindavan Gardens", "Mysore Zoo", "Sandalwood"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Mysore"
+    },
+    {
+      "name": "Chikmagalur",
+      "keyAttractions": ["Mullayanagiri peak", "Coffee estates", "Baba Budangiri", "Hebe Falls", "Trekking"],
+      "budgetRange": "₹1,800–4,500",
+      "bestSeason": "Sep–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Chikmagalur"
+    },
+    {
+      "name": "Jog Falls",
+      "keyAttractions": ["Highest plunge waterfall", "Sharavathi River", "Linganamakki dam", "Monsoon spectacle"],
+      "budgetRange": "₹1,200–2,500",
+      "bestSeason": "Aug–Dec",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Jog_Falls"
+    }
+  ],
+  "Kerala": [
+    {
+      "name": "Munnar",
+      "keyAttractions": ["Tea plantations", "Eravikulam National Park", "Mattupetty Dam", "Echo Point", "Neelakurinji"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Sep–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Munnar"
+    },
+    {
+      "name": "Alleppey (Alappuzha)",
+      "keyAttractions": ["Houseboat cruise", "Backwaters", "Kumarakom", "Coir villages", "Kathakali"],
+      "budgetRange": "₹3,000–8,000",
+      "bestSeason": "Sep–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Alappuzha"
+    },
+    {
+      "name": "Kovalam & Varkala",
+      "keyAttractions": ["Beaches", "Lighthouse", "Cliff temple", "Ayurveda", "Sunset views"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Sep–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kovalam"
+    },
+    {
+      "name": "Fort Kochi",
+      "keyAttractions": ["Chinese fishing nets", "Jewish Synagogue", "Mattancherry Palace", "Art cafes", "Kathakali"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Sep–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Fort_Kochi"
+    },
+    {
+      "name": "Thekkady (Periyar)",
+      "keyAttractions": ["Periyar Wildlife Sanctuary", "Boat safari", "Spice plantations", "Tiger reserve"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Sep–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Thekkady"
+    },
+    {
+      "name": "Wayanad",
+      "keyAttractions": ["Edakkal Caves", "Chembra Peak", "Banasura Sagar Dam", "Soochipara Falls", "Wildlife"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Oct–May",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Wayanad"
+    }
+  ],
+  "Madhya Pradesh": [
+    {
+      "name": "Khajuraho",
+      "keyAttractions": ["UNESCO temples", "Erotic sculptures", "Kandariya Mahadev", "Light & sound show"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments"
+    },
+    {
+      "name": "Kanha National Park",
+      "keyAttractions": ["Tiger reserve", "Jungle Book setting", "Bamni Dadar", "Elephant safari"],
+      "budgetRange": "₹3,000–7,000",
+      "bestSeason": "Oct–Jun",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kanha_Tiger_Reserve"
+    },
+    {
+      "name": "Bandhavgarh National Park",
+      "keyAttractions": ["High tiger density", "Bandhavgarh Fort", "Shesh Shaiya", "White tigers (legend)"],
+      "budgetRange": "₹3,000–7,000",
+      "bestSeason": "Oct–Jun",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Bandhavgarh_Tiger_Reserve"
+    },
+    {
+      "name": "Bhedaghat (Marble Rocks)",
+      "keyAttractions": ["Narmada gorge", "Boat ride", "Dhuandhar Falls", "Chausath Yogini"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Bhedaghat"
+    },
+    {
+      "name": "Sanchi",
+      "keyAttractions": ["UNESCO Buddhist stupas", "Ashoka pillars", "Great Stupa", "Archaeological museum"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Sanchi"
+    },
+    {
+      "name": "Pachmarhi",
+      "keyAttractions": ["Queen of Satpura", "Bee Falls", "Pandava Caves", "Jata Shankar", "Trekking"],
+      "budgetRange": "₹1,800–4,000",
+      "bestSeason": "Oct–Jun",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Pachmarhi"
+    }
+  ],
+  "Maharashtra": [
+    {
+      "name": "Mumbai",
+      "keyAttractions": ["Gateway of India", "Marine Drive", "Elephanta Caves", "CSMT", "Bollywood"],
+      "budgetRange": "₹3,000–8,000",
+      "bestSeason": "Nov–Feb",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Mumbai"
+    },
+    {
+      "name": "Lonavala & Khandala",
+      "keyAttractions": ["Bushi Dam", "Tiger Point", "Rajmachi", "Chikki", "Monsoon waterfalls"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Jun–Sep, Dec–Feb",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Lonavala"
+    },
+    {
+      "name": "Ajanta & Ellora Caves",
+      "keyAttractions": ["UNESCO rock-cut caves", "Ajanta murals", "Kailasa Temple", "Buddhist art"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Ajanta_Caves"
+    },
+    {
+      "name": "Mahabaleshwar",
+      "keyAttractions": ["Strawberry farms", "Pratapgad", "Lingmala Falls", "Mapro Garden", "Panchgani"],
+      "budgetRange": "₹2,500–5,500",
+      "bestSeason": "Oct–Jun",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Mahabaleshwar"
+    },
+    {
+      "name": "Kaas Plateau",
+      "keyAttractions": ["Valley of Flowers of Maharashtra", "Wildflowers (Sep)", "UNESCO Western Ghats", "Photography"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Aug–Sep",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Kaas_plateau"
+    },
+    {
+      "name": "Tadoba Tiger Reserve",
+      "keyAttractions": ["Tiger sightings", "Safari", "Lakes", "Maharashtra's prime tiger reserve"],
+      "budgetRange": "₹3,000–6,000",
+      "bestSeason": "Feb–May",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Tadoba_Andhari_Tiger_Reserve"
+    }
+  ],
+  "Manipur": [
+    {
+      "name": "Imphal",
+      "keyAttractions": ["Loktak Lake", "Kangla Fort", "Shree Govindajee Temple", "War cemetery", "Ima Keithel"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Apr",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Imphal"
+    },
+    {
+      "name": "Loktak Lake & Keibul Lamjao",
+      "keyAttractions": ["Floating phumdis", "Sangai deer", "Only floating NP", "Ramsar site", "Boating"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Loktak_Lake"
+    },
+    {
+      "name": "Ukhrul (Shirui Lily)",
+      "keyAttractions": ["Shirui Lily Festival", "Endemic lily", "Khangkhui Cave", "Highlands"],
+      "budgetRange": "₹1,800–4,000",
+      "bestSeason": "May (lily bloom)",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Ukhrul"
+    }
+  ],
+  "Meghalaya": [
+    {
+      "name": "Cherrapunji (Sohra)",
+      "keyAttractions": ["Living root bridges", "Nohkalikai Falls", "Seven Sisters Falls", "Rainfall records"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–May",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Cherrapunji"
+    },
+    {
+      "name": "Shillong",
+      "keyAttractions": ["Umiam Lake", "Elephant Falls", "Shillong Peak", "Police Bazar", "Golf course"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Oct–Jun",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Shillong"
+    },
+    {
+      "name": "Mawlynnong",
+      "keyAttractions": ["Asia's cleanest village", "Living root bridge", "Sky view", "Eco-tourism"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–May",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Mawlynnong"
+    },
+    {
+      "name": "Dawki",
+      "keyAttractions": ["Umngot River", "Crystal clear water", "India-Bangladesh border", "Boating"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–May",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Dawki"
+    }
+  ],
+  "Mizoram": [
+    {
+      "name": "Aizawl",
+      "keyAttractions": ["Solomon's Temple", "Mizoram State Museum", "Durtlang Hills", "Bara Bazar"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Apr",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Aizawl"
+    },
+    {
+      "name": "Lunglei",
+      "keyAttractions": ["Khawnglung Sanctuary", "Thorangtlang", "Saikuti Hall", "Tribal culture"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Apr",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Lunglei"
+    },
+    {
+      "name": "Phawngpui (Blue Mountain)",
+      "keyAttractions": ["Highest peak in Mizoram", "Orchids", "Trekking", "Vantawng Falls"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Nov–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Phawngpui"
+    }
+  ],
+  "Nagaland": [
+    {
+      "name": "Kohima",
+      "keyAttractions": ["WWII Cemetery", "Kohima War Museum", "Dzukou Valley trek", "Hornbill Festival (Dec)"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Oct–May",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kohima"
+    },
+    {
+      "name": "Dzukou Valley",
+      "keyAttractions": ["Trekking", "Dzukou lilies", "Valley of flowers", "Nagaland-Manipur border"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Jun–Sep (flowers), Oct–Dec (clear)",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Dzukou_Valley"
+    },
+    {
+      "name": "Kisama (Hornbill Festival)",
+      "keyAttractions": ["Annual tribal festival", "Naga culture", "Dec 1–10", "Traditional dances"],
+      "budgetRange": "₹2,500–5,000",
+      "bestSeason": "December",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Hornbill_Festival"
+    },
+    {
+      "name": "Mokokchung",
+      "keyAttractions": ["Ao tribe", "Longkhum", "Ungma", "Offbeat Naga villages"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Apr",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Mokokchung"
+    }
+  ],
+  "Odisha": [
+    {
+      "name": "Puri & Konark",
+      "keyAttractions": ["Jagannath Temple", "Konark Sun Temple (UNESCO)", "Puri Beach", "Rath Yatra"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Puri"
+    },
+    {
+      "name": "Bhubaneswar",
+      "keyAttractions": ["Lingaraja Temple", "Udayagiri-Khandagiri Caves", "Dhauli", "State Museum"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Bhubaneswar"
+    },
+    {
+      "name": "Chilika Lake",
+      "keyAttractions": ["Migratory birds", "Dolphins", "Ramsar site", "Nalabana Island", "Boating"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Nov–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Chilika_Lake"
+    },
+    {
+      "name": "Simlipal National Park",
+      "keyAttractions": ["Tiger reserve", "Barehipani Falls", "Biopsphere reserve", "Tribal villages"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Nov–Jun",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Simlipal_National_Park"
+    },
+    {
+      "name": "Bhitarkanika",
+      "keyAttractions": ["Mangroves", "Saltwater crocodiles", "Ramsar site", "Turtle nesting"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Bhitarkanika_Mangroves"
+    }
+  ],
+  "Punjab": [
+    {
+      "name": "Amritsar",
+      "keyAttractions": ["Golden Temple", "Jallianwala Bagh", "Wagah Border", "Partition Museum"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Amritsar"
+    },
+    {
+      "name": "Anandpur Sahib",
+      "keyAttractions": ["Virasat-e-Khalsa", "Takht Keshgarh Sahib", "Hola Mohalla", "Sikh heritage"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Anandpur_Sahib"
+    },
+    {
+      "name": "Patiala",
+      "keyAttractions": ["Qila Mubarak", "Moti Bagh Palace", "Sheesh Mahal", "Baradari Gardens"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Patiala"
+    }
+  ],
+  "Rajasthan": [
+    {
+      "name": "Jaipur",
+      "keyAttractions": ["Amber Fort", "Hawa Mahal", "City Palace", "Jantar Mantar", "Bazaars"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Jaipur"
+    },
+    {
+      "name": "Udaipur",
+      "keyAttractions": ["Lake Pichola", "City Palace", "Jag Mandir", "Monsoon Palace", "Boat ride"],
+      "budgetRange": "₹2,500–7,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Udaipur"
+    },
+    {
+      "name": "Jodhpur",
+      "keyAttractions": ["Mehrangarh Fort", "Umaid Bhawan", "Blue City", "Jaswant Thada", "Clock Tower"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Jodhpur"
+    },
+    {
+      "name": "Jaisalmer",
+      "keyAttractions": ["Golden City", "Jaisalmer Fort", "Sam dunes", "Camel safari", "Desert camping"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Jaisalmer"
+    },
+    {
+      "name": "Ranthambore",
+      "keyAttractions": ["Tiger reserve", "Ranthambore Fort", "Safari", "Padam Talao"],
+      "budgetRange": "₹3,000–8,000",
+      "bestSeason": "Oct–Jun",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Ranthambore_National_Park"
+    },
+    {
+      "name": "Pushkar",
+      "keyAttractions": ["Brahma Temple", "Pushkar Lake", "Camel Fair", "Bazaars", "Hippie vibes"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Pushkar"
+    },
+    {
+      "name": "Bundi",
+      "keyAttractions": ["Bundi Palace", "Step wells", "Taragarh Fort", "Offbeat heritage"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Bundi"
+    }
+  ],
+  "Sikkim": [
+    {
+      "name": "Gangtok",
+      "keyAttractions": ["Tsomgo Lake", "Nathu La", "Rumtek Monastery", "Ropeway", "MG Marg"],
+      "budgetRange": "₹2,500–5,500",
+      "bestSeason": "Mar–Jun, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Gangtok"
+    },
+    {
+      "name": "Pelling",
+      "keyAttractions": ["Kanchenjunga view", "Pemyayangtse", "Rabdentse", "Skywalk", "Waterfalls"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Mar–May, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Pelling"
+    },
+    {
+      "name": "North Sikkim (Lachung, Yumthang)",
+      "keyAttractions": ["Gurudongmar Lake", "Yumthang Valley", "Zero Point", "Permits required"],
+      "budgetRange": "₹3,000–6,000",
+      "bestSeason": "Apr–Jun, Oct–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/North_Sikkim"
+    },
+    {
+      "name": "Yuksom",
+      "keyAttractions": ["Dzongri trek base", "Coronation throne", "Khecheopalri Lake", "Goecha La trek"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Apr–May, Sep–Nov",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Yuksom"
+    }
+  ],
+  "Tamil Nadu": [
+    {
+      "name": "Madurai",
+      "keyAttractions": ["Meenakshi Temple", "Thirumalai Nayak Palace", "Alagar Kovil", "Markets"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Madurai"
+    },
+    {
+      "name": "Ooty",
+      "keyAttractions": ["Nilgiri Mountain Railway", "Botanical Gardens", "Tea estates", " Doddabetta", "Lake"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Apr–Jun, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Ooty"
+    },
+    {
+      "name": "Mahabalipuram",
+      "keyAttractions": ["UNESCO shore temples", "Five Rathas", "Arjuna's Penance", "Beach", "Stone carving"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Mahabalipuram"
+    },
+    {
+      "name": "Kodaikanal",
+      "keyAttractions": ["Kodai Lake", "Coaker's Walk", "Pillar Rocks", "Bear Shola Falls", "Bryant Park"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Apr–Jun, Sep–Oct",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kodaikanal"
+    },
+    {
+      "name": "Thanjavur",
+      "keyAttractions": ["Brihadeeswarar Temple (UNESCO)", "Thanjavur Palace", "Art museum", "Chola bronzes"],
+      "budgetRange": "₹1,200–3,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Thanjavur"
+    },
+    {
+      "name": "Rameswaram",
+      "keyAttractions": ["Ramanathaswamy Temple", "Dhanushkodi", "Adam's Bridge view", "Pamban Bridge"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Rameswaram"
+    }
+  ],
+  "Telangana": [
+    {
+      "name": "Hyderabad",
+      "keyAttractions": ["Charminar", "Golconda Fort", "Ramappa Temple", "Chowmahalla", "Biryani"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Hyderabad"
+    },
+    {
+      "name": "Ramappa Temple",
+      "keyAttractions": ["UNESCO Kakatiya temple", "Floating brick", "Intricate carvings", "Mulugu district"],
+      "budgetRange": "₹1,200–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Ramappa_Temple"
+    },
+    {
+      "name": "Warangal",
+      "keyAttractions": ["Thousand Pillar Temple", "Warangal Fort", "Kakatiya Thoranam", "Laknavaram Lake"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Warangal"
+    }
+  ],
+  "Tripura": [
+    {
+      "name": "Agartala",
+      "keyAttractions": ["Ujjayanta Palace", "Neermahal", "Tripura Sundari Temple", "Sepahijala Sanctuary"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Apr",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Agartala"
+    },
+    {
+      "name": "Unakoti",
+      "keyAttractions": ["Rock-cut sculptures", "Shiva reliefs", "UNESCO tentative list", "Pilgrimage"],
+      "budgetRange": "₹1,200–2,500",
+      "bestSeason": "Oct–Apr",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Unakoti"
+    },
+    {
+      "name": "Neermahal",
+      "keyAttractions": ["Water palace", "Rudrasagar Lake", "Twilight Palace", "Boating"],
+      "budgetRange": "₹1,000–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Neermahal"
+    }
+  ],
+  "Uttarakhand": [
+    {
+      "name": "Rishikesh & Haridwar",
+      "keyAttractions": ["Ganga Aarti", "Yoga capital", "River rafting", "Temples", "Ashrams"],
+      "budgetRange": "₹1,500–4,500",
+      "bestSeason": "Sep–Jun",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Rishikesh"
+    },
+    {
+      "name": "Nainital",
+      "keyAttractions": ["Naini Lake", "Snow View", "Mall Road", "Naina Devi Temple", "Boating"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Mar–Jun, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Nainital"
+    },
+    {
+      "name": "Jim Corbett National Park",
+      "keyAttractions": ["Tiger reserve", "Safari", "Dhikala", "Elephant safari"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Nov–Jun",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Jim_Corbett_National_Park"
+    },
+    {
+      "name": "Valley of Flowers",
+      "keyAttractions": ["UNESCO site", "Alpine flowers", "Hemkund Sahib", "Trekking"],
+      "budgetRange": "₹2,000–4,500",
+      "bestSeason": "Jul–Sep",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Valley_of_Flowers_National_Park"
+    },
+    {
+      "name": "Char Dham (Badrinath, Kedarnath, Gangotri, Yamunotri)",
+      "keyAttractions": ["Hindu pilgrimage", "Himalayan temples", "Scenic drives"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Apr–Jun, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Char_Dham"
+    },
+    {
+      "name": "Auli",
+      "keyAttractions": ["Skiing", "Cable car", "Nanda Devi views", "Meadows"],
+      "budgetRange": "₹2,500–5,500",
+      "bestSeason": "Dec–Mar (ski), Apr–Jun (greenery)",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Auli,_India"
+    }
+  ],
+  "Uttar Pradesh": [
+    {
+      "name": "Agra",
+      "keyAttractions": ["Taj Mahal", "Agra Fort", "Fatehpur Sikri", "Itmad-ud-Daulah"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Agra"
+    },
+    {
+      "name": "Varanasi",
+      "keyAttractions": ["Ghats", "Ganga Aarti", "Kashi Vishwanath", "Sarnath", "Boat ride"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Varanasi"
+    },
+    {
+      "name": "Ayodhya",
+      "keyAttractions": ["Ram Mandir", "Saryu River", "Hanuman Garhi", "Kanak Bhawan"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Ayodhya"
+    },
+    {
+      "name": "Lucknow",
+      "keyAttractions": ["Bara Imambara", "Chota Imambara", "Hazratganj", "Lucknowi cuisine"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Lucknow"
+    },
+    {
+      "name": "Dudhwa National Park",
+      "keyAttractions": ["Tiger reserve", "Swamp deer", "Terai ecosystem", "Jeep safari"],
+      "budgetRange": "₹2,500–5,000",
+      "bestSeason": "Nov–Jun",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Dudhwa_National_Park"
+    }
+  ],
+  "West Bengal": [
+    {
+      "name": "Kolkata",
+      "keyAttractions": ["Victoria Memorial", "Howrah Bridge", "Dakshineswar", "Park Street", "Durga Puja"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kolkata"
+    },
+    {
+      "name": "Darjeeling",
+      "keyAttractions": ["Toy Train (UNESCO)", "Tiger Hill", "Tea estates", "Batasia Loop", "Observatory"],
+      "budgetRange": "₹2,500–5,500",
+      "bestSeason": "Mar–May, Sep–Nov",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Darjeeling"
+    },
+    {
+      "name": "Sundarbans",
+      "keyAttractions": ["Mangrove forest", "Royal Bengal tigers", "UNESCO site", "Boat safari"],
+      "budgetRange": "₹3,000–6,000",
+      "bestSeason": "Sep–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Sundarbans_National_Park"
+    },
+    {
+      "name": "Santiniketan",
+      "keyAttractions": ["Tagore's university", "UNESCO site", "Poush Mela", "Art & culture"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Santiniketan"
+    },
+    {
+      "name": "Bishnupur",
+      "keyAttractions": ["Terracotta temples", "Jor Bangla", "Rasmancha", "Bankura horses"],
+      "budgetRange": "₹1,200–2,500",
+      "bestSeason": "Oct–Mar",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Bishnupur,_Bankura"
+    }
+  ],
+  "Andaman and Nicobar Islands": [
+    {
+      "name": "Port Blair",
+      "keyAttractions": ["Cellular Jail", "Light & sound show", "Anthropological Museum", "Corbyn's Cove"],
+      "budgetRange": "₹2,500–5,000",
+      "bestSeason": "Oct–May",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Port_Blair"
+    },
+    {
+      "name": "Havelock Island",
+      "keyAttractions": ["Radhanagar Beach", "Elephant Beach", "Scuba diving", "Kayaking"],
+      "budgetRange": "₹3,000–7,000",
+      "bestSeason": "Oct–May",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Swaraj_Dweep"
+    },
+    {
+      "name": "Neil Island",
+      "keyAttractions": ["Natural Bridge", "Laxmanpur Beach", "Bharatpur Beach", "Relaxed vibes"],
+      "budgetRange": "₹2,500–5,500",
+      "bestSeason": "Oct–May",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Shaheed_Dweep"
+    },
+    {
+      "name": "Ross Island",
+      "keyAttractions": ["British ruins", "Peacocks", "Light & sound", "Day trip from Port Blair"],
+      "budgetRange": "₹1,500–3,000",
+      "bestSeason": "Oct–May",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Ross_Island_(Andaman)"
+    }
+  ],
+  "Chandigarh": [
+    {
+      "name": "Chandigarh",
+      "keyAttractions": ["Rock Garden", "Sukhna Lake", "Rose Garden", "Capitol Complex (Le Corbusier)", "Open Hand"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Chandigarh"
+    }
+  ],
+  "Dadra and Nagar Haveli and Daman and Diu": [
+    {
+      "name": "Daman",
+      "keyAttractions": ["Devka Beach", "Jampore Beach", "Portuguese forts", "Churches", "Seafood"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Daman,_India"
+    },
+    {
+      "name": "Diu",
+      "keyAttractions": ["Nagoa Beach", "Diu Fort", "INS Khukri Memorial", "Chakratirth Beach", "Portuguese charm"],
+      "budgetRange": "₹1,500–3,500",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Diu,_India"
+    }
+  ],
+  "Delhi": [
+    {
+      "name": "New Delhi",
+      "keyAttractions": ["India Gate", "Rashtrapati Bhavan", "Qutb Minar", "Humayun's Tomb", "Akshardham"],
+      "budgetRange": "₹2,500–7,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/New_Delhi"
+    },
+    {
+      "name": "Old Delhi",
+      "keyAttractions": ["Red Fort", "Jama Masjid", "Chandni Chowk", "Paranthe Wali Gali", "Street food"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Old_Delhi"
+    }
+  ],
+  "Jammu and Kashmir": [
+    {
+      "name": "Srinagar",
+      "keyAttractions": ["Dal Lake", "Houseboats", "Mughal Gardens", "Shalimar", "Nishat Bagh"],
+      "budgetRange": "₹3,000–8,000",
+      "bestSeason": "Apr–Oct",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Srinagar"
+    },
+    {
+      "name": "Gulmarg",
+      "keyAttractions": ["Gondola", "Skiing", "Meadows", "Golf course", "Apharwat Peak"],
+      "budgetRange": "₹3,500–9,000",
+      "bestSeason": "Dec–Mar (snow), Apr–Jun (flowers)",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Gulmarg"
+    },
+    {
+      "name": "Pahalgam",
+      "keyAttractions": ["Betaab Valley", "Aru Valley", "Lidder River", "Amarnath Yatra base"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "Apr–Oct",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Pahalgam"
+    },
+    {
+      "name": "Vaishno Devi",
+      "keyAttractions": ["Cave shrine", "13 km trek", "Holy cave", "Katra base"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Mar–Oct",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Vaishno_Devi"
+    }
+  ],
+  "Ladakh": [
+    {
+      "name": "Leh",
+      "keyAttractions": ["Leh Palace", "Shanti Stupa", "Hemis Monastery", "Magnetic Hill", "Monasteries"],
+      "budgetRange": "₹2,500–6,000",
+      "bestSeason": "May–Sep",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Leh"
+    },
+    {
+      "name": "Nubra Valley",
+      "keyAttractions": ["Khardung La", "Sand dunes", "Double-hump camels", "Diskit Monastery", "Panamik"],
+      "budgetRange": "₹3,000–6,500",
+      "bestSeason": "Jun–Sep",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Nubra"
+    },
+    {
+      "name": "Pangong Tso",
+      "keyAttractions": ["High-altitude lake", "3 Idiots filming", "Color-changing waters", "Camping"],
+      "budgetRange": "₹3,000–6,000",
+      "bestSeason": "May–Sep",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Pangong_Tso"
+    },
+    {
+      "name": "Tso Moriri",
+      "keyAttractions": ["Remote lake", "Korzok village", "Wildlife", "Changthang plateau"],
+      "budgetRange": "₹3,500–7,000",
+      "bestSeason": "May–Sep",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Tso_Moriri"
+    }
+  ],
+  "Lakshadweep": [
+    {
+      "name": "Kadmat Island",
+      "keyAttractions": ["Scuba diving", "Coral reefs", "Water sports", "Lagoons", "Beach huts"],
+      "budgetRange": "₹4,000–10,000",
+      "bestSeason": "Oct–May",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Kadmat_Island"
+    },
+    {
+      "name": "Agatti Island",
+      "keyAttractions": ["Entry point", "Beach", "Snorkeling", "Lagoon", "Coral"],
+      "budgetRange": "₹3,500–8,000",
+      "bestSeason": "Oct–May",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Agatti_Island"
+    },
+    {
+      "name": "Bangaram Island",
+      "keyAttractions": ["Uninhabited", "Resort", "Diving", "Turtles", "Private island vibe"],
+      "budgetRange": "₹8,000–15,000",
+      "bestSeason": "Oct–May",
+      "type": "hidden gem",
+      "wiki": "https://en.wikipedia.org/wiki/Bangaram"
+    }
+  ],
+  "Puducherry": [
+    {
+      "name": "Puducherry (Pondicherry)",
+      "keyAttractions": ["French Quarter", "Promenade Beach", "Aurobindo Ashram", "French cuisine", "Colonial walks"],
+      "budgetRange": "₹2,000–5,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Puducherry"
+    },
+    {
+      "name": "Auroville",
+      "keyAttractions": ["Matrimandir", "Peace Area", "Experimental township", "Meditation", "Workshops"],
+      "budgetRange": "₹1,500–4,000",
+      "bestSeason": "Oct–Mar",
+      "type": "popular",
+      "wiki": "https://en.wikipedia.org/wiki/Auroville"
+    }
+  ]
+}

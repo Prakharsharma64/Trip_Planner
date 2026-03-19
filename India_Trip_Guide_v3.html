@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Complete India Trip Guide 2025 | 60 Destinations | Budget ₹15,000/person</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--td:#1A4A4A;--tm:#2E7D7D;--tl:#4DB6AC;--acc:#FF8F00;--gold:#FFF8E1;--gr:#F5F5F5;--tx:#212121;--tx2:#546E7A;--w:#fff;--gn:#2E7D32;--bl:#1565C0;--or:#E65100;--rd:#B71C1C;--pu:#6A1B9A}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'DM Sans',Arial,sans-serif;background:#eef2f2;color:var(--tx)}
+
+  /* ── progress bar ── */
+  .pbar{background:var(--td);color:#fff;padding:10px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:200;box-shadow:0 2px 8px rgba(0,0,0,.3)}
+  .pbar span{font-size:.85rem;opacity:.9}
+  .pbtn{background:var(--acc);color:#fff;border:none;padding:8px 18px;border-radius:20px;font-weight:700;cursor:pointer;font-size:.82rem}
+  .pbtn:hover{background:#E65100}
+
+  /* ── header ── */
+  .hdr{background:var(--td);color:#fff;text-align:center;padding:28px 20px 0}
+  .hdr h1{font-family:'Playfair Display',serif;font-size:2.4rem;font-weight:800;letter-spacing:1px;margin-bottom:6px}
+  .hdr .sub{color:var(--tl);font-size:1rem;margin-bottom:10px}
+  .hdr .meta{font-size:.78rem;color:rgba(255,255,255,.5);margin-bottom:14px}
+  .stats{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;background:rgba(0,0,0,.2);padding:14px 20px}
+  .stat .num{font-size:1.7rem;font-weight:800;color:var(--acc)}
+  .stat .lbl{font-size:.62rem;color:rgba(255,255,255,.65);text-transform:uppercase;letter-spacing:1px}
+
+  /* ── nav ── */
+  .nav{display:flex;gap:4px;padding:12px 16px;background:var(--tm);overflow-x:auto;scrollbar-width:thin}
+  .nav button{padding:7px 14px;border-radius:20px;background:rgba(255,255,255,.15);color:#fff;cursor:pointer;white-space:nowrap;font-size:.78rem;font-weight:600;border:none;flex-shrink:0;transition:all .18s}
+  .nav button:hover,.nav button.active{background:#fff;color:var(--td)}
+
+  /* ── content ── */
+  .content{max-width:1280px;margin:0 auto;padding:20px 14px}
+  .sec-ttl{background:var(--td);color:#fff;padding:12px 18px;border-radius:8px;margin-bottom:18px;font-size:1rem;font-weight:700;letter-spacing:1px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;margin-bottom:28px}
+
+  /* ── card ── */
+  .card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.07);transition:transform .2s,box-shadow .2s}
+  .card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.12)}
+  .photo{position:relative;width:100%;height:200px;overflow:hidden;cursor:pointer}
+  .photo img{width:100%;height:100%;object-fit:cover;transition:transform .4s;display:block}
+  .card:hover .photo img{transform:scale(1.04)}
+  .ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:6px;font-size:.72rem;color:rgba(255,255,255,.75);text-align:center;padding:10px}
+  .ph .em{font-size:2rem}
+  .ph .lt{font-size:.62rem;opacity:.65}
+  .ctag{position:absolute;top:10px;left:10px;padding:3px 10px;border-radius:20px;font-size:.63rem;font-weight:700;color:#fff;z-index:2}
+  .cm{background:var(--gn)}.cl{background:var(--bl)}.co{background:var(--or)}
+  .pcred{position:absolute;bottom:5px;right:7px;background:rgba(0,0,0,.5);color:#fff;font-size:.55rem;padding:2px 5px;border-radius:3px;z-index:2}
+
+  /* gallery hover overlay */
+  .gallery-hint{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.7));color:#fff;font-size:.72rem;font-weight:600;padding:18px 10px 8px;text-align:center;opacity:0;transition:opacity .25s;z-index:3;pointer-events:none}
+  .photo:hover .gallery-hint{opacity:1}
+
+  /* ── card body ── */
+  .body{padding:14px}
+  .nm{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:var(--td);margin-bottom:2px}
+  .st{font-size:.7rem;color:var(--tm);font-weight:600;text-transform:uppercase;letter-spacing:.4px;margin-bottom:5px}
+  .tg{font-size:.78rem;color:var(--tx2);line-height:1.4;margin-bottom:8px}
+  .pills{display:flex;gap:4px;flex-wrap:wrap;margin-bottom:8px}
+  .pill{background:var(--gr);padding:3px 8px;border-radius:20px;font-size:.68rem}
+  .pill b{color:var(--td)}
+  .abt{font-size:.78rem;line-height:1.55;color:var(--tx);margin-bottom:8px;border-left:3px solid var(--tl);padding-left:8px}
+  .att{font-size:.68rem;font-weight:700;color:var(--td);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+  .acts{display:flex;flex-direction:column;gap:3px;margin-bottom:10px}
+  .act{display:flex;gap:5px;font-size:.75rem;line-height:1.4}
+  .ai{min-width:16px;font-size:.82rem}
+  .act b{color:var(--td)}
+  .bx{background:var(--gold);border-radius:7px;padding:8px 11px;display:flex;justify-content:space-between;align-items:center}
+  .bl2{font-size:.66rem;font-weight:600;color:var(--tx2);text-transform:uppercase}
+  .ba{font-size:.93rem;font-weight:800;color:var(--td)}
+  .rb{margin-top:7px;font-size:.71rem;color:var(--tx2);background:var(--gr);padding:6px 8px;border-radius:6px;line-height:1.4}
+  .rb b{color:var(--td)}
+  .tip{margin-top:6px;font-size:.7rem;color:#5e1fa0;background:#f3e5f5;padding:6px 8px;border-radius:6px;font-style:italic;line-height:1.4}
+
+  /* ── summary table ── */
+  .tw{background:#fff;border-radius:10px;padding:18px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+  .tw h2{color:var(--td);margin-bottom:14px;font-size:1rem;font-family:'Playfair Display',serif}
+  .ovx{overflow-x:auto}
+  table{width:100%;border-collapse:collapse;font-size:.75rem}
+  th{background:var(--td);color:#fff;padding:7px 9px;text-align:left;font-size:.68rem;text-transform:uppercase}
+  td{padding:6px 9px;border-bottom:1px solid #ECEFF1}
+  tr:nth-child(even) td{background:var(--gr)}
+  tr:hover td{background:#e0f2f1}
+  .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:4px}
+
+  /* ── LIGHTBOX ── */
+  #lb{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.92);z-index:9999;flex-direction:column;align-items:center;justify-content:center}
+  #lb.open{display:flex}
+  #lb-close{position:absolute;top:16px;right:20px;color:#fff;font-size:2rem;cursor:pointer;line-height:1;z-index:2;background:rgba(255,255,255,.1);width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:none}
+  #lb-close:hover{background:rgba(255,255,255,.25)}
+  #lb-title{color:#fff;font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;margin-bottom:12px;text-align:center;padding:0 20px}
+  #lb-subtitle{color:rgba(255,255,255,.6);font-size:.8rem;margin-bottom:16px;text-align:center}
+  #lb-main{position:relative;width:100%;max-width:800px;height:420px;display:flex;align-items:center;justify-content:center}
+  #lb-img{max-width:100%;max-height:100%;border-radius:8px;object-fit:contain;transition:opacity .2s}
+  #lb-img.loading{opacity:.3}
+  #lb-prev,#lb-next{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);color:#fff;border:none;font-size:1.6rem;width:44px;height:44px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .15s;z-index:2}
+  #lb-prev:hover,#lb-next:hover{background:rgba(255,255,255,.35)}
+  #lb-prev{left:8px}
+  #lb-next{right:8px}
+  #lb-thumbs{display:flex;gap:8px;padding:12px 20px;overflow-x:auto;max-width:800px;width:100%;scrollbar-width:thin}
+  .lb-thumb{width:64px;height:48px;object-fit:cover;border-radius:5px;cursor:pointer;opacity:.55;border:2px solid transparent;transition:opacity .15s,border-color .15s;flex-shrink:0}
+  .lb-thumb.active{opacity:1;border-color:var(--acc)}
+  #lb-counter{color:rgba(255,255,255,.5);font-size:.75rem;margin-top:8px}
+  #lb-loading{color:rgba(255,255,255,.6);font-size:.85rem;padding:20px;text-align:center}
+  #lb-attrib{color:rgba(255,255,255,.35);font-size:.62rem;margin-top:6px;text-align:center}
+
+  /* ── search bar ── */
+  .search-wrap{display:flex;gap:8px;align-items:center;padding:12px 16px;background:#fff;border-bottom:1px solid #e0e0e0}
+  #search{flex:1;padding:8px 14px;border:1.5px solid #b0bec5;border-radius:20px;font-size:.82rem;outline:none;font-family:'DM Sans',sans-serif}
+  #search:focus{border-color:var(--tm)}
+  .search-wrap label{font-size:.78rem;color:var(--tx2);white-space:nowrap}
+  #budget-filter{padding:7px 10px;border:1.5px solid #b0bec5;border-radius:20px;font-size:.78rem;font-family:'DM Sans',sans-serif;outline:none;cursor:pointer}
+
+  /* ── no results ── */
+  .no-results{text-align:center;padding:40px;color:var(--tx2);font-size:.9rem}
+
+
+  /* ── MOOD FILTER ── */
+  .mood-bar{display:flex;align-items:center;gap:8px;padding:11px 14px;background:#fff;border-bottom:2px solid #e0e0e0;overflow-x:auto;scrollbar-width:none;flex-wrap:wrap}
+  .mood-bar::-webkit-scrollbar{display:none}
+  .mood-label{font-size:.7rem;font-weight:700;color:var(--tx2);text-transform:uppercase;letter-spacing:.8px;white-space:nowrap;flex-shrink:0}
+  .mood-btn{display:flex;align-items:center;gap:4px;padding:5px 12px;border-radius:20px;border:2px solid transparent;font-size:.74rem;font-weight:700;cursor:pointer;transition:all .18s;white-space:nowrap;flex-shrink:0;background:var(--gr)}
+  .mood-btn:hover{transform:translateY(-1px)}
+  .mood-btn[data-mood="monsoon"]{color:#0288D1;border-color:#0288D1}
+  .mood-btn[data-mood="history"]{color:#6D4C41;border-color:#6D4C41}
+  .mood-btn[data-mood="wildlife"]{color:#2E7D32;border-color:#2E7D32}
+  .mood-btn[data-mood="trek"]{color:#E65100;border-color:#E65100}
+  .mood-btn[data-mood="peace"]{color:#7B1FA2;border-color:#7B1FA2}
+  .mood-btn.active[data-mood="monsoon"]{background:#0288D1;color:#fff}
+  .mood-btn.active[data-mood="history"]{background:#6D4C41;color:#fff}
+  .mood-btn.active[data-mood="wildlife"]{background:#2E7D32;color:#fff}
+  .mood-btn.active[data-mood="trek"]{background:#E65100;color:#fff}
+  .mood-btn.active[data-mood="peace"]{background:#7B1FA2;color:#fff}
+  .mood-clear{font-size:.7rem;color:var(--tx2);cursor:pointer;text-decoration:underline;margin-left:4px;flex-shrink:0}
+  /* ── MOOD TAGS ON CARDS ── */
+  .mood-tags{position:absolute;top:10px;right:10px;display:flex;gap:3px;flex-direction:column;align-items:flex-end;z-index:2}
+  .mood-tag{font-size:.52rem;padding:2px 6px;border-radius:8px;font-weight:700;color:#fff;opacity:.92}
+  .mt-monsoon{background:#0288D1}.mt-history{background:#6D4C41}.mt-wildlife{background:#2E7D32}.mt-trek{background:#E65100}.mt-peace{background:#7B1FA2}
+  /* ── CARD ANIMATIONS ── */
+  @keyframes fadeInUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+  .card-wrap{animation:fadeInUp .35s ease both}
+  /* ── SURPRISE BTN ── */
+  .surprise-btn{background:linear-gradient(135deg,#7B1FA2,#4A148C);animation:pulse-btn 2.5s infinite}
+  @keyframes pulse-btn{0%,100%{box-shadow:0 0 0 0 rgba(123,31,162,.4)}50%{box-shadow:0 0 0 8px rgba(123,31,162,0)}}
+  /* ── TOAST ── */
+  #toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(60px);background:var(--td);color:#fff;padding:11px 22px;border-radius:30px;font-size:.8rem;font-weight:600;z-index:9998;transition:transform .3s ease;pointer-events:none;white-space:nowrap;box-shadow:0 4px 20px rgba(0,0,0,.3)}
+  #toast.show{transform:translateX(-50%) translateY(0)}
+  /* ── SUMMARY TABLE MOOD COL ── */
+  tr:hover td{background:#e0f2f1 !important}
+  .mood-header{background:linear-gradient(135deg,var(--tm),var(--td));color:#fff;padding:13px 18px;border-radius:8px;margin-bottom:10px;font-size:.88rem;font-weight:700}
+  .mood-header span{opacity:.7;font-weight:400;font-size:.78rem}
+  /* ── RAIN CANVAS ── */
+  #rain-canvas{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;opacity:.4;z-index:1}
+  .hdr-content{position:relative;z-index:2}
+  .hdr{position:relative;overflow:hidden}
+  /* ── NAV ICONS ── */
+  .pbar-right{display:flex;gap:8px;align-items:center}
+
+  footer{background:var(--td);color:rgba(255,255,255,.55);text-align:center;padding:16px;font-size:.73rem;margin-top:24px}
+  @media print{.pbar,.nav,.search-wrap{display:none}.card{break-inside:avoid}body{background:#fff}}
+  @media(max-width:600px){.hdr h1{font-size:1.5rem}.grid{grid-template-columns:1fr}#lb-main{height:250px}}
+</style>
+</head>
+<body>
+
+<!-- sticky top bar -->
+<div class="pbar">
+  <span>🗺️ India Trip Guide · 60 Destinations · July 2025 · ₹15k Budget</span>
+  <div class="pbar-right">
+    <button class="pbtn surprise-btn" onclick="surpriseMe()">🎲 Surprise Me!</button>
+    <button class="pbtn" onclick="window.print()">🖨️ Print</button>
+  </div>
+</div>
+
+<!-- header -->
+<div class="hdr">
+  <canvas id="rain-canvas"></canvas>
+  <div class="hdr-content">
+  <h1>🗺️ COMPLETE INDIA TRIP GUIDE</h1>
+  <div class="sub">60 Destinations · July 2025 · From Jaipur · Budget ₹15,000/person</div>
+  <div class="meta">Group of 3 · 14 States · Click any photo to see gallery · 🎲 Surprise Me picks a random destination</div>
+  <div class="stats">
+    <div class="stat"><div class="num" id="stat-dest">60</div><div class="lbl">Destinations</div></div>
+    <div class="stat"><div class="num" id="stat-states">14</div><div class="lbl">States</div></div>
+    <div class="stat"><div class="num">₹1.2k</div><div class="lbl">Min Budget</div></div>
+    <div class="stat"><div class="num">5 hrs</div><div class="lbl">Closest</div></div>
+    <div class="stat"><div class="num">⭐4.9</div><div class="lbl">Top Rated</div></div>
+  </div>
+</div>
+
+<!-- nav -->
+<nav class="nav" id="nav"></nav>
+
+<!-- mood filter -->
+<div class="mood-bar" id="mood-bar">
+  <span class="mood-label">✨ Vibe:</span>
+  <button class="mood-btn" data-mood="monsoon" onclick="toggleMood('monsoon')">🌧️ Monsoon Magic</button>
+  <button class="mood-btn" data-mood="history" onclick="toggleMood('history')">🏯 History &amp; Forts</button>
+  <button class="mood-btn" data-mood="wildlife" onclick="toggleMood('wildlife')">🐆 Wildlife &amp; Nature</button>
+  <button class="mood-btn" data-mood="trek" onclick="toggleMood('trek')">🧗 Adventure &amp; Trek</button>
+  <button class="mood-btn" data-mood="peace" onclick="toggleMood('peace')">🕊️ Peace &amp; Solitude</button>
+  <span class="mood-clear" id="mood-clear" onclick="clearMood()" style="display:none">✕ Clear filter</span>
+</div>
+
+<!-- search + filter bar -->
+<div class="search-wrap" id="search-bar" style="display:none">
+  <input type="text" id="search" placeholder="🔍  Search destinations, states, activities..." oninput="filterCards()">
+  <label for="budget-filter">Budget/person:</label>
+  <select id="budget-filter" onchange="filterCards()">
+    <option value="">All (within ₹15k)</option>
+    <option value="1">Under ₹4,000 💸</option>
+    <option value="2">₹4,000–₹7,000 👌</option>
+    <option value="3">₹7,000–₹15,000 🏔️</option>
+  </select>
+</div>
+
+<!-- main content -->
+<div class="content" id="content"></div>
+
+<footer>
+  <p>All budgets are per-person estimates for a group of 3 from Jaipur in July 2025.</p>
+  <p style="margin-top:4px">📸 Click any photo to open the full gallery. Photos via Wikipedia Commons (CC BY-SA).</p>
+</footer>
+
+<!-- ────────────────────────── LIGHTBOX ────────────────────────── -->
+<div id="lb" role="dialog" aria-modal="true">
+  <button id="lb-close" onclick="closeLB()" aria-label="Close">✕</button>
+  <div id="lb-title"></div>
+  <div id="lb-subtitle"></div>
+  <div id="lb-main">
+    <button id="lb-prev" onclick="lbNav(-1)" aria-label="Previous">‹</button>
+    <img id="lb-img" src="" alt="" onerror="lbImgErr()">
+    <button id="lb-next" onclick="lbNav(1)" aria-label="Next">›</button>
+  </div>
+  <div id="lb-loading" style="display:none">Loading more photos…</div>
+  <div id="lb-thumbs"></div>
+  <div id="lb-counter"></div>
+  <div id="lb-attrib">© Wikimedia Commons (CC BY-SA)</div>
+</div>
+
+<script>
+// ─────────────────────────────────────────────────────────
+// DATA
+// ─────────────────────────────────────────────────────────
+const D={
+"Popular Picks":[
+{name:"Manali",wiki:"Manali,_Himachal_Pradesh",state:"Himachal Pradesh",crowd:"Low",travel:"14-16 hrs",weather:"10-20°C, lush green",budget:"₹7,400–9,500",route:"Jaipur → Delhi (bus) → Manali (overnight Volvo)",about:"Manali in July is dramatically different from peak season. Rohtang Pass opens, Solang Valley glows green, and waterfalls appear everywhere. The Beas River runs full and fast while Old Manali cafes serve up mountain views.",acts:[["🏔️","Rohtang Pass","Snow-capped pass at 3,978m — book permit online"],["🪂","Solang Valley","Cable car rides & paragliding in lush surroundings"],["☕","Old Manali Cafes","Rooftop cafes with mountain views and great food"],["🏛️","Hadimba Temple","500+ yr old wooden temple in deodar forest"]],tip:"Book Rohtang permits 2–3 days early — they sell out fast in July."},
+{name:"Rishikesh",wiki:"Rishikesh",state:"Uttarakhand",crowd:"Low",travel:"7-8 hrs",weather:"22-30°C, heavy river flow",budget:"₹4,600–7,200",route:"Jaipur → Delhi (bus) → Rishikesh (UPSRTC bus)",about:"The Ganges runs deep and powerful in July making river rafting an absolute thrill. The 16km Shivpuri stretch offers dramatically intense rapids. Budget options abound with great riverside cafes and ashrams for yoga.",acts:[["🚣","River Rafting","Shivpuri to Rishikesh 16km — peak thrills in July"],["🏕️","Beach Camping","Camp on sandy Ganges banks at Shivpuri"],["🧘","Yoga & Meditation","Free or ₹200/class at Parmarth Niketan ashram"],["🌉","Laxman Jhula","Iconic suspension bridge with Himalayan backdrop"]],tip:"Book rafting + camping packages together — saves 30% vs separately."},
+{name:"Kasol",wiki:"Kasol",state:"Himachal Pradesh",crowd:"Low",travel:"12-14 hrs",weather:"12-22°C, misty, green",budget:"₹4,200–6,200",route:"Jaipur → Delhi → Bhuntar (bus) → Kasol (local bus)",about:"A tiny village on the Parvati River. In July the valley turns intense green and Israeli-influenced cafes create a unique vibe. The Kheerganga trek (12km) leads to a natural hot spring at 2,950m.",acts:[["🥾","Kheerganga Trek","12km trek to natural hot spring at 2,950m altitude"],["⛺","Riverside Camping","Camp on Parvati River banks — ₹300–500/night"],["🕌","Manikaran Sahib","Sikh gurudwara with hot spring geysers + free langar"],["☕","Cafe Culture","Israeli-Indian fusion cafes with great food"]],tip:"Carry a raincoat for Kheerganga — trail gets slippery in July."},
+{name:"Tungnath",wiki:"Tungnath",state:"Uttarakhand",crowd:"Minimal",travel:"11-12 hrs",weather:"8-16°C, green meadows",budget:"₹4,100–5,400",route:"Jaipur → Delhi → Haridwar → Rudraprayag → Chopta (taxi)",about:"Chopta is base for the world's highest Shiva temple at Tungnath (3,680m). July meadows turn vivid green with almost no crowds. Chandrashila summit above offers a 360° Himalayan panorama above the clouds.",acts:[["⛩️","Tungnath Temple","World's highest Shiva temple — 3.5km trek from Chopta"],["🏔️","Chandrashila","1.5km above Tungnath — stunning 360° panorama"],["🦌","Wildlife Spotting","Kedarnath sanctuary — musk deer & Himalayan birds"],["⛺","Bugyal Meadows","Rolling alpine meadows perfect for camping"]],tip:"Cheapest hill destination on the list. Book forest rest houses via Uttarakhand tourism."},
+],
+"Hidden Gems":[
+{name:"Tirthan Valley",wiki:"Tirthan_Valley",state:"Himachal Pradesh",crowd:"Minimal",travel:"13-14 hrs",weather:"14-22°C, crystal river",budget:"₹4,800–6,400",route:"Jaipur → Delhi → Chandigarh → Bhuntar → Tirthan (taxi)",about:"The most pristine destination on the list. Tirthan River runs crystal blue inside GHNP buffer zone forests. Homestays serve fresh trout caught from the river. Zero mobile network in many parts — true digital detox.",acts:[["🎣","Trout Fishing","Fish in the Tirthan River with permits from village"],["🌲","GHNP Treks","Great Himalayan National Park forest walks"],["🏊","River Swimming","Crystal-clear and safe for swimming near Gushaini"],["🏡","Homestay Culture","Stay with Himachali families, eat home-cooked trout"]],tip:"Opt for full-board homestays — includes trout meals, cheapest overall."},
+{name:"Munsiyari",wiki:"Munsiyari",state:"Uttarakhand",crowd:"Minimal",travel:"14-15 hrs",weather:"10-18°C, clear peaks at dawn",budget:"₹5,200–7,200",route:"Jaipur → Delhi → Kathgodam (Ranikhet Express) → Almora → Munsiyari",about:"At 2,200m staring directly at the five-peaked Panchachuli range. Almost no tourist crowds unlike Mussoorie or Nainital. Khaliya Top trek at 3,500m offers one of Uttarakhand's best panoramic views.",acts:[["🏔️","Panchachuli Views","Morning views of the majestic 5-summit massif"],["🥾","Khaliya Top Trek","10km to 3,500m meadow with 180° panorama"],["💧","Birthi Falls","Dramatic 126-foot waterfall just 35km away"],["🏛️","Tribal Museum","Learn about the Bhotiya tribe & trans-Himalayan trade"]],tip:"Book Ranikhet Express (Kathgodam train) 30 days ahead on IRCTC."},
+{name:"Khajjiar",wiki:"Khajjiar",state:"Himachal Pradesh",crowd:"Low",travel:"12-13 hrs",weather:"12-20°C, misty, very green",budget:"₹4,850–6,900",route:"Jaipur → Delhi → Pathankot (train) → Dalhousie → Khajjiar (taxi)",about:"A perfectly circular meadow with a small lake at its center, surrounded by dense deodar trees. Switzerland officially recognized it as 'Mini Switzerland' in 1992. July makes it intensely green with wildflowers.",acts:[["🌿","Meadow Walk","Circular walk around the famous round lake center"],["🎡","Zorbing","Fun activities on the meadow — budget prices"],["🦌","Kalatop Sanctuary","Short drive to spot Himalayan black bears and deer"],["🌲","Forest Trails","Dense deodar forest walks surrounding the meadow"]],tip:"Stay in Dalhousie and day-trip to Khajjiar — better food & accommodation options."},
+{name:"Lansdowne",wiki:"Lansdowne,_Uttarakhand",state:"Uttarakhand",crowd:"Minimal",travel:"10-11 hrs",weather:"16-24°C, pine forest mist",budget:"₹3,900–5,400",route:"Jaipur → Delhi → Kotdwar (train) → Lansdowne (taxi, 40km)",about:"A Garhwal Rifles cantonment that has deliberately resisted commercialization. Pine-scented forest walks, Bhulla Lake, old churches, and an army museum. No bars, no clubs — just pure calm at the cheapest budget.",acts:[["🌲","Forest Trails","Multiple marked trails through dense pine and oak forest"],["⛵","Bhulla Lake","Boating on a scenic lake inside a forest"],["⛪","St. Mary's Church","1895 colonial-era church with beautiful architecture"],["🏛️","Garhwal Rifles Museum","History of one of India's most decorated regiments"]],tip:"Cheapest hill destination. Perfect for total calm and minimal budget."},
+{name:"Binsar",wiki:"Binsar_Wildlife_Sanctuary",state:"Uttarakhand",crowd:"Minimal",travel:"13-14 hrs",weather:"14-22°C, deep green, misty",budget:"₹4,800–6,400",route:"Jaipur → Delhi → Kathgodam → Almora → Binsar (taxi, 30km)",about:"A 47 sq km sanctuary with Zero Point viewpoint offering 300km of Himalayan peaks — Nanda Devi, Kedarnath, Trishul. Dense oak forest with 200+ bird species. July turns it emerald green.",acts:[["👁️","Zero Point View","300km Himalayan panorama — must go at 6 AM for clear view"],["🦅","Birdwatching","200+ species incl. griffons, trogons, minivets"],["🐆","Leopard Spotting","Good density in the sanctuary — best at dawn/dusk"],["🏘️","Almora Town","Historic Kumaoni market town 30km away"]],tip:"Go to Zero Point at 6 AM — July clouds can block the view later."},
+{name:"Spiti Valley",wiki:"Spiti_Valley",state:"Himachal Pradesh",crowd:"Minimal",travel:"20-24 hrs",weather:"5-18°C day, cold nights",budget:"₹7,800–10,000",route:"Jaipur → Delhi → Shimla → Reckong Peo → Kaza (jeep)",about:"One of the most remote inhabited valleys in the world. July is one of few months roads are open. Ancient monasteries like Key (11th cent.) and Tabo (996 AD) sit against stark moonscapes. Stars at night are brightest ever.",acts:[["🏯","Key Monastery","11th-century fort-monastery perched on a hilltop"],["🕌","Tabo Monastery","996 AD — UNESCO tentative list, ancient murals inside"],["🏔️","Chandratal Lake","Crescent lake at 4,300m — one of India's most beautiful"],["🦬","Kibber Village","World's highest post office + yaks grazing freely"]],tip:"Carry Diamox for altitude sickness. Acclimatize 1 full day in Kaza first."},
+],
+"Beyond Uttarakhand":[
+{name:"Chakrata",wiki:"Chakrata",state:"Uttarakhand (Jaunsar)",crowd:"Minimal",travel:"10-11 hrs",weather:"16-24°C, full waterfalls",budget:"₹4,200–6,000",route:"Jaipur → Delhi → Dehradun (train) → Chakrata (taxi, 90km)",about:"An army cantonment at 2,118m in the Jaunsar-Bawar region. Tiger Falls at 312 feet is one of Asia's highest straight-drop waterfalls, absolutely thunderous in July monsoon.",acts:[["💧","Tiger Falls","312ft waterfall — thunderous in July monsoon"],["🌲","Deoban Forest","Dense deodar with panoramic Himalayan views at 2,200m+"],["⛺","Mundali Meadows","High-altitude meadow camping with great views"],["🎭","Jaunsari Culture","Unique tribal culture and local cuisine of Jaunsar"]],tip:"Requires Inner Line Permit — get from SDM office in Dehradun."},
+{name:"Jibhi",wiki:"Jibhi,_Himachal_Pradesh",state:"Himachal Pradesh",crowd:"Minimal",travel:"13-14 hrs",weather:"13-22°C, green forest, river",budget:"₹5,000–7,000",route:"Jaipur → Delhi → Chandigarh → Aut Tunnel → Banjar → Jibhi",about:"A tiny village on a clear stream with traditional wooden Himachali houses. Jalori Pass (3,120m) is 14km away with a 5km trek to Serolsar Lake. July makes the forest dense and a hidden waterfall roars nearby.",acts:[["🏔️","Jalori Pass","3,120m mountain pass just 14km away — easy drive or trek"],["🏞️","Serolsar Lake","5km forest trek from Jalori Pass to a stunning lake"],["🌊","Hidden Waterfall","2km walk from village — roars beautifully in July"],["🏡","Wooden Village","Traditional Himachali wooden architecture to explore"]],tip:"Top pick — checks every vibe: rivers, forest, mountains, peace in one village."},
+{name:"Mukteshwar",wiki:"Mukteshwar",state:"Uttarakhand",crowd:"Low",travel:"12-13 hrs",weather:"12-20°C, cool, misty evenings",budget:"₹5,400–7,300",route:"Jaipur → Delhi → Kathgodam (train) → Bhowali → Mukteshwar (taxi)",about:"A ridge-top town at 2,286m with sweeping Himalayan views and apple orchards everywhere. Chauli Ki Jali cliff — a natural overhang where you can rappel or peer 300 feet straight down. Zero light pollution for stargazing.",acts:[["🧗","Chauli Ki Jali","Natural cliff overhang — rappelling & rock climbing"],["🌅","Mukteshwar Temple","Ancient Shiva temple with best sunrise Himalayan views"],["🍎","Apple Orchards","Walk through apple & peach orchards in full fruit"],["⭐","Night Sky","Zero light pollution — best stargazing in Kumaon hills"]],tip:"Higher, cooler and less crowded than Nainital — with better views overall."},
+{name:"Bir Billing",wiki:"Bir,_Himachal_Pradesh",state:"Himachal Pradesh",crowd:"Low",travel:"13-14 hrs",weather:"16-24°C, lush green hillside",budget:"₹5,200–7,300",route:"Jaipur → Delhi → Pathankot (train) → Baijnath → Bir (bus)",about:"World's second-best paragliding site. In July the Tibetan refugee colony is beautiful — colorful monasteries, prayer flags, excellent cafes and lush green hillsides. Budget stays are plentiful.",acts:[["🪂","Paragliding","Limited in July but occasionally available — ₹2,500"],["🕌","Sherab Ling","Large Tibetan monastery — peaceful and beautiful"],["🥾","Billing Hike","14km uphill to Billing meadow through dense forest"],["🍜","Tibetan Cafes","Excellent momos, thukpa & coffee in Tibetan colony"]],tip:"Visit Sherab Ling early morning for free prayer ceremony — deeply peaceful."},
+{name:"Kanatal",wiki:"Kanatal",state:"Uttarakhand",crowd:"Minimal",travel:"10-11 hrs",weather:"14-22°C, pine forest, clean air",budget:"₹4,500–6,400",route:"Jaipur → Delhi → Dehradun (train) → Chamba → Kanatal (taxi)",about:"A hamlet at 2,600m so small it has fewer than 10 guesthouses. Apple and peach orchards surround it and Tehri Lake sits 30km away. July brings intense green and you can camp under stars with almost no one around.",acts:[["⛺","Forest Camping","Apple orchards or pine forest camping — ₹500-700/night"],["🚤","Tehri Lake","Massive reservoir — boating & kayaking available"],["🥾","Surkanda Devi","3km trek to hilltop temple with 360° views"],["🍎","Orchard Walks","Apple & peach orchards in full fruit season to wander"]],tip:"Combine with Dhanaulti (25km away) for a great 2-destination trip."},
+{name:"Jawai",wiki:"Jawai",state:"Rajasthan",crowd:"Minimal",travel:"~5 hrs",weather:"28-38°C, dry, best at dawn",budget:"₹2,800–4,200",route:"Jaipur → Falna/Sumerpur (train) → Jawai Bandh (taxi)",about:"India's secret leopard capital — leopards live freely on granite boulder hills with Rabari herders, spotted in broad daylight on open rocks. Crocodiles live in the Jawai Dam. Rated 4.8⭐ with 789 reviews.",acts:[["🐆","Leopard Safari","Jeep safari on rocky hillside — very high sighting chance"],["🐊","Crocodile Spotting","Boat rides on Jawai Dam to see marsh crocodiles"],["👨‍🌾","Rabari Village","Traditional nomadic herder community visit"],["🌅","Dam Sunset","Beautiful sunset with birds & wildlife on the banks"]],tip:"Best as 2-day weekend trip. Go early — leopards active before 9 AM."},
+{name:"Pachmarhi",wiki:"Pachmarhi",state:"Madhya Pradesh",crowd:"Low",travel:"11-12 hrs",weather:"22-30°C, lush tropical jungle",budget:"₹6,000–8,200",route:"Jaipur → Bhopal (overnight train) → Piparia → Pachmarhi (bus)",about:"MP's only hill station at 1,067m inside the Satpura Tiger Reserve. Dense tropical jungle, dramatic flat-topped hills, ancient sandstone caves, and powerful waterfalls. Completely different from Himalayan destinations.",acts:[["💧","Bee Falls","Most famous waterfall — absolutely roaring in July"],["🗿","Pandav Caves","Ancient caves with prehistoric rock art — very unique"],["🦁","Satpura Safari","Jeep/boat safari in India's least-visited tiger reserve"],["🏔️","Handi Khoh","300m jungle gorge with dramatic monsoon views"]],tip:"Perfect for those bored of Himalayan trips — completely different terrain."},
+{name:"Prashar Lake",wiki:"Prashar_Lake",state:"Himachal Pradesh",crowd:"Minimal",travel:"13-14 hrs",weather:"10-18°C, emerald lake, dramatic clouds",budget:"₹4,200–5,700",route:"Jaipur → Delhi → Chandigarh → Mandi (bus) → Baggi → 7km trek",about:"A deep emerald lake at 2,730m with a mysterious floating island that moves around with the wind — no scientific explanation. A 13th-century pagoda temple sits on the banks. Rated 4.8⭐ with 4,400+ reviews.",acts:[["🌊","Floating Island","Mysterious island that changes position with the wind"],["🏛️","Rishi Temple","13th-century pagoda temple on the lake shore"],["🥾","Trek from Baggi","7km forest and meadow trek — moderate difficulty"],["🌙","Lakeside Camping","Camp under the stars by the lake — unforgettable"]],tip:"Can be done as 2-3 day trip from Mandi town — very low cost."},
+{name:"Barot Valley",wiki:"Barot,_Himachal_Pradesh",state:"Himachal Pradesh",crowd:"Minimal",travel:"13-14 hrs",weather:"14-22°C, crystal river, dense forest",budget:"₹4,500–6,300",route:"Jaipur → Delhi → Chandigarh → Mandi → Jogindernagar → Barot",about:"Carved by the Uhl River, covered in thick deodar and pine forest. Trout fishing is world-class. A 1920s British hydropower project adds unusual character. Even most Himachalis haven't visited here.",acts:[["🎣","Trout Fishing","Fish in the Uhl River — permits available in village"],["💧","Waterfall Trek","Multiple trails to hidden waterfalls in dense forest"],["⛺","River Camping","Camp right on the Uhl River bank in monsoon greenery"],["🌲","Nargu Wildlife","Treks into Nargu Wildlife Sanctuary nearby"]],tip:"Pairs perfectly with Bir Billing (2 hrs away) for a 7-day hidden gem combo."},
+{name:"Mount Abu",wiki:"Mount_Abu",state:"Rajasthan",crowd:"Low",travel:"5-6 hrs",weather:"22-30°C, misty, lush",budget:"₹3,850–5,700",route:"Jaipur → Abu Road (direct bus/train) → Mount Abu (shared jeep)",about:"Rajasthan's only hill station at 1,220m. In July it turns green and misty — a surreal contrast with surrounding desert. Nakki Lake, extraordinary Dilwara Jain Temples, and wildlife sanctuary with sloth bears.",acts:[["🚤","Nakki Lake","Boat rides on scenic Aravalli-ringed lake"],["🕌","Dilwara Temples","11th-12th century Jain temples — extraordinary marble carving"],["🦥","Wildlife Sanctuary","Sloth bears, leopards & 250+ bird species"],["🌅","Sunset Point","Gets misty and beautiful in July monsoon season"]],tip:"Best for short 3-day trip — closest and cheapest of non-Uttarakhand options."},
+],
+"Punjab":[
+{name:"Anandpur Sahib",wiki:"Anandpur_Sahib",state:"Punjab",crowd:"Minimal",travel:"~10 hrs",weather:"28-35°C, hills green",budget:"₹2,100–3,700",route:"Jaipur → Delhi → Chandigarh (train) → Anandpur Sahib (bus, 2 hrs)",about:"One of Sikhism's holiest cities on the Sutlej River. The Virasat-e-Khalsa museum is one of India's most architecturally stunning buildings. Free langar available 24 hours. July makes surrounding Shivalik hills lush green.",acts:[["🕌","Keshgarh Sahib","One of the 5 Takhts of Sikhism — stunning white complex"],["🏛️","Virasat-e-Khalsa","Award-winning Sikh history museum — architectural marvel"],["🌊","Sutlej Riverside","Peaceful walks along the full monsoon river"],["🍽️","Free Langar","Community kitchen serving free meals 24 hours a day"]],tip:"Stay in Gurudwara sarai (pilgrim rooms) — extremely low cost ₹100-200/night."},
+{name:"Fatehgarh Sahib",wiki:"Fatehgarh_Sahib",state:"Punjab",crowd:"Minimal",travel:"~9 hrs",weather:"28-36°C, comfortable at complex",budget:"₹1,200–2,200",route:"Jaipur → Delhi → Sirhind (direct train, ~8 hrs) → Fatehgarh Sahib (auto)",about:"Commemorates the martyrdom of Guru Gobind Singh Ji's younger sons who were bricked alive for refusing to renounce their faith. The complex radiates profound spiritual energy. Rated 4.9⭐ with 9,000+ reviews.",acts:[["🕌","Main Gurudwara","The main complex — deeply moving, 4.9⭐ rated"],["🌳","Aam Khas Bagh","Beautiful 17th-century Mughal garden in Sirhind town"],["🕌","Rauza Sharif","Tomb of Sheikh Ahmad Sirhindi — significant heritage"],["🍽️","Free Langar","24-hour free community kitchen with excellent food"]],tip:"Cheapest destination on the entire list. Sirhind is on the Jaipur-Delhi rail line."},
+],
+"Gujarat":[
+{name:"Rann of Kutch",wiki:"Rann_of_Kutch",state:"Gujarat",crowd:"Minimal",travel:"~14 hrs",weather:"30-40°C, partly flooded, mirror reflections",budget:"₹5,900–8,300",route:"Jaipur → Ahmedabad (train) → Bhuj (bus) → Rann (taxi)",about:"Completely different in July — parts flood creating stunning mirror reflections, thousands of flamingos arrive, and you'll have the entire place to yourself. A surreal alien landscape very few people experience in monsoon season.",acts:[["🌊","White Desert Walk","Partly flooded salt flat — beautiful mirror reflections"],["🦩","Flamingo Watching","Thousands arrive in monsoon — incredible for photography"],["🏔️","Kalo Dungar","Black Hill panoramic viewpoint over the entire Rann"],["🏘️","Dhordo Village","Traditional Kutchi village with handicrafts & local food"]],tip:"Stay in Bhuj town and do the Rann as a day trip — Bhuj has excellent Kutchi food."},
+{name:"Gir National Park",wiki:"Gir_Forest_National_Park",state:"Gujarat",crowd:"Low",travel:"~15 hrs",weather:"28-38°C, lush green forest",budget:"₹7,200–10,000",route:"Jaipur → Ahmedabad (train) → Junagadh (train) → Sasan Gir",about:"The only place in the world outside Africa where you can see lions in the wild. 700+ Asiatic lions and 300+ leopards. Main jeep safari closes in July but Devalia Safari Park stays open with guaranteed sightings.",acts:[["🦁","Devalia Safari","Open in July — guaranteed Asiatic lion sightings"],["🦅","Birdwatching","300+ bird species in Gir's extraordinarily rich forest"],["🕌","Somnath Temple","One of 12 Jyotirlingas — just 40km away on Arabian Sea"],["🐊","Crocodile Spots","Hiran River has large mugger crocodile population"]],tip:"Book Devalia safari permit at forestgujarat.in in advance — very limited daily slots."},
+{name:"Diu",wiki:"Diu,_India",state:"Gujarat (UT)",crowd:"Low",travel:"~14 hrs",weather:"28-34°C, sea breeze, accessible beaches",budget:"₹5,200–7,700",route:"Jaipur → Ahmedabad → Una (train) → Diu (bus, 20km)",about:"Former Portuguese island with clean beaches, a massive 16th-century sea fort, old churches from 1600, and a relaxed vibe. Alcohol freely available unlike rest of Gujarat. Much less crowded than Goa with similar vibes.",acts:[["🏰","Diu Fort","16th-century Portuguese sea fort with lighthouse"],["🏖️","Nagoa Beach","Clean white sand beach with calm Arabian Sea water"],["⛪","St. Paul's Church","1600s Portuguese church with incredible carved facade"],["🐟","Seafood Walk","Fresh seafood at fishing jetty — extremely cheap prices"]],tip:"Diu is tiny — rent a bicycle (₹100/day) and cover the whole island in a day."},
+],
+"Maharashtra":[
+{name:"Amboli",wiki:"Amboli",state:"Maharashtra",crowd:"Minimal",travel:"~18 hrs",weather:"18-26°C, heaviest monsoon, thick fog",budget:"₹5,100–7,200",route:"Jaipur → Mumbai (train) → Kolhapur (train) → Amboli (bus/taxi)",about:"Maharashtra's most biodiverse village receives some of India's heaviest rainfall in July. Waterfalls erupt from every cliff face, the village disappears into monsoon fog, and rare endemic species emerge. Entry just ₹20.",acts:[["💧","Amboli Waterfall","Main fall thunderous in July — entry only ₹20"],["🌫️","Monsoon Fog","The thick fog IS the experience — incredibly scenic"],["🐸","Rare Wildlife","Malabar pit vipers, tree frogs & endemic birds"],["🌄","Mahadevgad View","Dramatic viewpoint over the Western Ghats below"]],tip:"Carry a windcheater — Amboli gets extremely foggy even in 'summer'. The fog is the attraction!"},
+{name:"Tarkarli",wiki:"Tarkarli",state:"Maharashtra",crowd:"Minimal",travel:"~18 hrs",weather:"26-32°C, beach accessible, sea rough",budget:"₹5,300–7,500",route:"Jaipur → Mumbai → Kudal (Konkan Railway) → Tarkarli (auto, 10km)",about:"Consistently rated Maharashtra's cleanest and most beautiful beach. Crystal-clear Arabian Sea, white sand, and a relaxed Konkan vibe. July means limited water sports but the beach is gorgeous and Malvani seafood is extraordinary.",acts:[["🏖️","Empty Beach Walks","Long white sand beach — almost deserted in July"],["🏰","Sindhudurg Fort","Sea fort built by Shivaji in 1664 — take boat to reach"],["🦞","Malvani Seafood","Fresh fish, crab & prawns in coconut-chili gravy"],["🚣","Kayaking","Backwater kayaking available even in monsoon season"]],tip:"Konkan Railway is the best way to reach — book Tejas/Jan Shatabdi from Mumbai."},
+{name:"Bhandardara",wiki:"Bhandardara",state:"Maharashtra",crowd:"Low",travel:"~15 hrs",weather:"22-30°C, lake fills, Sahyadri monsoon",budget:"₹5,700–8,000",route:"Jaipur → Mumbai (train) → Igatpuri (train) → Bhandardara (auto, 30km)",about:"Hidden lake-and-waterfall gem in Ahmednagar district. Arthur Lake fills dramatically in July, Randha Falls (180-foot drop) and Vasundhara Falls are at peak. Wilson Dam becomes spectacular with monsoon overflow.",acts:[["🚤","Arthur Lake","Boating on the beautifully situated monsoon reservoir"],["💧","Randha Falls","180-foot waterfall — absolutely thunderous in July"],["🏔️","Wilson Dam","British-era dam with spectacular monsoon overflow views"],["🏯","Ratangad Fort","5km trek to a well-preserved Sahyadri mountain fort"]],tip:"Avoid weekends in July — much more peaceful and affordable on weekdays."},
+{name:"Matheran",wiki:"Matheran",state:"Maharashtra",crowd:"Low",travel:"~16 hrs",weather:"20-28°C, monsoon mist, dramatic clouds",budget:"₹5,600–8,000",route:"Jaipur → Mumbai (train) → Neral (local train) → Matheran (toy train)",about:"India's only vehicle-free hill station — no cars or bikes inside the town. Red laterite paths wind through dense monsoon forest to 30+ viewpoints. In July it rains heavily and mist rolls in dramatically. The toy train is charming.",acts:[["👁️","Panorama Point","Best 360° view — clouds and valleys below in monsoon"],["🚂","Toy Train","UNESCO heritage narrow gauge train from Neral"],["🏞️","Charlotte Lake","Tranquil forest lake surrounded by dense trees"],["🐴","Horse Rides","Traditional way to explore the vehicle-free hill station"]],tip:"Visit on weekdays — gets crowded with Mumbai day-trippers on weekends."},
+],
+"Maharashtra Forts":[
+{name:"Raigad Fort",wiki:"Raigad_Fort",state:"Maharashtra",crowd:"Low",travel:"~17 hrs",weather:"20-28°C, monsoon mist wraps fort",budget:"₹4,100–5,800",route:"Jaipur → Mumbai (train) → Mangaon (bus) → Pachad → Ropeway/trek",about:"Capital of the Maratha Empire where Shivaji was crowned in 1674. The throne room, Shivaji's samadhi, and the massive market street ruins are charged with history. Ropeway available (₹325 return). Rated 4.8⭐ with 43,000+ reviews.",acts:[["⚔️","Shivaji Samadhi","Sacred memorial of Chhatrapati Shivaji at the summit"],["🚡","Ropeway Ride","Aerial ropeway — stunning monsoon valley views from top"],["🏛️","Market Street Ruins","300+ shop ruins from the thriving 17th-century capital"],["🌫️","Monsoon Views","Fort wrapped in clouds — spectacular photography opportunity"]],tip:"Hire a local guide (₹400-600) — the layered history comes alive with commentary."},
+{name:"Rajgad Fort",wiki:"Rajgad",state:"Maharashtra",crowd:"Low",travel:"~17 hrs",weather:"18-26°C, monsoon fog on forest trail",budget:"₹3,600–5,200",route:"Jaipur → Mumbai/Pune (train) → Nasrapur → Rajgad trek base",about:"Shivaji's first capital for 26 years — bigger and more complex than Raigad. Three massive machis, ancient water cisterns, rock-cut caves. UNESCO World Heritage tentative list. July monsoon trek is the best Sahyadri experience.",acts:[["🏯","Suvela Machi","Best sunrise & double fortification example — breathtaking"],["🧗","Balekilla","Inner citadel — challenging climb, most historically significant"],["🗿","Ancient Caves","Rock-cut caves and ancient temples scattered across fort"],["💧","Water Systems","Brilliant 400-yr-old cisterns still completely intact and full"]],tip:"Start trek at 5 AM to reach Balekilla before clouds block the views. Carry 3L water."},
+{name:"Torna Fort",wiki:"Torna_Fort",state:"Maharashtra",crowd:"Low",travel:"~17 hrs",weather:"18-25°C, steep misty trail, waterfalls alongside",budget:"₹3,400–5,000",route:"Jaipur → Pune (train) → Velhe village → Torna trek base",about:"The very first fort Shivaji conquered — at just 16 years old in 1646, starting the Maratha Empire. Highest fort in Pune district at 1,403m. A natural freshwater lake sits at the summit. July trail is thrilling.",acts:[["🏔️","Torna Summit","1,403m — highest fort in Pune district with stunning views"],["🌊","Summit Lake","Natural freshwater lake at the summit — rare for Sahyadri"],["🏯","Zunjar Machi","Massive outer bastion with dramatic cliff drops below"],["💧","Waterfall Trail","Monsoon waterfalls erupt right alongside the trek path"]],tip:"Torna and Rajgad are 20km apart — do both in one 4-day Maratha fort trail."},
+{name:"Pratapgad Fort",wiki:"Pratapgad",state:"Maharashtra",crowd:"Low",travel:"~18 hrs",weather:"16-24°C, near Mahabaleshwar, green",budget:"₹5,700–8,100",route:"Jaipur → Mumbai → Satara (train) → Mahabaleshwar → Pratapgad (24km)",about:"Site of the legendary 1659 battle where Shivaji killed Afzal Khan — one of history's most dramatic confrontations. An easy paved walk (not a hard trek), perfect if you want the history without a hardcore climb. Rated 4.6⭐.",acts:[["⚔️","Afzal Khan Memorial","Site of the duel that changed Maratha history in 1659"],["🕌","Bhavani Mata Temple","Beautiful temple where Shivaji prayed before battle"],["🌄","Valley Views","Stunning Sahyadri panorama in July monsoon"],["🏘️","Mahabaleshwar","Famous hill station 24km away — strawberries & views"]],tip:"Combine Pratapgad with Mahabaleshwar for a great 3-day Maharashtra hill trip."},
+{name:"Harishchandragad",wiki:"Harishchandragad",state:"Maharashtra",crowd:"Low",travel:"~16 hrs",weather:"18-24°C, heavy rain, river crossings",budget:"₹3,900–5,500",route:"Jaipur → Mumbai (train) → Igatpuri → Khireshwar village → trek",about:"NOT for beginners. 14-15km through dense forest, river crossings, and near-vertical rock climbs. Konkan Kada — a sheer 180° overhanging cliff with a 1,000-foot drop — is one of India's most dramatic viewpoints. Rated 4.7⭐.",acts:[["🏔️","Konkan Kada","1,000ft sheer overhanging cliff — breathtaking views"],["🗿","Ancient Cave Temple","Rock-cut temples carved into the mountain — centuries old"],["🏔️","Taramati Peak","Highest point of the fort — panoramic Sahyadri views"],["🌊","River Crossings","Multiple crossings in July make the trek a real adventure"]],tip:"MANDATORY: Hire a certified local guide. This fort has claimed lives without experience."},
+],
+"MP Forts":[
+{name:"Gwalior Fort",wiki:"Gwalior_Fort",state:"Madhya Pradesh",crowd:"Low",travel:"5-6 hrs",weather:"28-36°C, fort complex shaded",budget:"₹2,700–4,300",route:"Jaipur → Gwalior (direct train, ~5 hrs) — super easy!",about:"Called the 'Gibraltar of India' by Babur himself. Man Singh Palace (1508), Saas-Bahu temples, 1,500-year-old Jain rock sculptures, and a Sikh Gurudwara — all inside one massive complex. Most accessible fort from Jaipur.",acts:[["🏛️","Man Singh Palace","1508 palace with stunning blue & yellow tilework — UNESCO"],["🗿","Jain Sculptures","1,500-year-old Tirthankar carvings cut into the cliff face"],["🕌","Saas-Bahu Temples","Twin 11th-century temples with intricate stone carvings"],["🎵","Tansen Tomb","Memorial of the greatest musician in Akbar's Navaratna"]],tip:"Only 5 hrs from Jaipur by direct train — perfect as a 2-day add-on to any trip."},
+{name:"Orchha",wiki:"Orchha",state:"Madhya Pradesh",crowd:"Minimal",travel:"5-6 hrs (via Jhansi)",weather:"28-36°C, Betwa River full in monsoon",budget:"₹2,650–3,950",route:"Jaipur → Jhansi (train, ~5 hrs) → Orchha (auto, 16km)",about:"A 16th-century Bundela Rajput fort on a seasonal island in the Betwa River. Jahangir Mahal, Raja Mahal, royal cenotaphs reflected in the monsoon-swollen river. One ticket covers 6 monuments. July brings zero crowds.",acts:[["🏛️","Jahangir Mahal","Magnificent palace built for Emperor Jahangir's royal visit"],["🌊","Betwa Cenotaphs","Royal chattris on riverside — stunning monsoon reflections"],["🎨","Raja Mahal Murals","Ancient palace with remarkable painted ceilings and art"],["🌅","Betwa River Walk","Walk along the full monsoon river beside the fort walls"]],tip:"16km from Jhansi which has great train connectivity — ideal 2-day add-on to Gwalior."},
+{name:"Mandu",wiki:"Mandu,_Madhya_Pradesh",state:"Madhya Pradesh",crowd:"Low",travel:"~11 hrs (via Indore)",weather:"26-34°C, lakes fill, plateau turns green",budget:"₹3,400–5,400",route:"Jaipur → Indore (train/bus, ~9 hrs) → Mandu (bus/taxi, 100km)",about:"An entire fortified city on a plateau. The Jahaz Mahal (Ship Palace) sits between two lakes and looks like a ship floating on water when lakes fill in July. Waterfalls cascade off the plateau. Rated 4.5⭐.",acts:[["🚢","Jahaz Mahal","'Ship Palace' between two monsoon lakes — surreal in July"],["🏛️","Hindola Mahal","The 'Swing Palace' with unique sloping walls"],["💧","Mandu Waterfalls","Multiple waterfalls cascade off the plateau in July"],["🌅","Roopmati Pavilion","Hilltop pavilion with legendary romance story & views"]],tip:"Mandu has a unique local dish called Dal Bafla — must try at any local dhaba."},
+{name:"Chanderi",wiki:"Chanderi",state:"Madhya Pradesh",crowd:"Minimal",travel:"~8-9 hrs",weather:"28-36°C, hilltop breeze, green hill",budget:"₹2,400–3,800",route:"Jaipur → Jhansi/Bina (train) → Chanderi (bus, 3 hrs)",about:"The Khooni Darwaza (Bloody Gate) and Jauhar Smarak remember Rajput women who chose death over capture. No entry fee. Almost no tourists know this exists. Below is Chanderi town, famous for its exquisite silk sarees.",acts:[["🚪","Khooni Darwaza","The haunting 'Bloody Gate' — powerful Rajput history"],["🏛️","Jauhar Smarak","Memorial to Rajput women who performed Jauhar"],["🌄","City Panorama","Views of the entire handloom town of Chanderi below"],["🛍️","Chanderi Sarees","Famous silk-cotton weave — best unique souvenir from MP"]],tip:"Second cheapest destination. FREE fort entry. Chanderi sarees make great souvenirs."},
+{name:"Asirgarh Fort",wiki:"Asirgarh",state:"Madhya Pradesh",crowd:"Minimal",travel:"~11-12 hrs",weather:"26-34°C, forest-covered, clouds at fort level",budget:"₹2,800–4,200",route:"Jaipur → Bhopal (train) → Burhanpur (train) → Asirgarh (taxi, 20km)",about:"Called the 'Key to the Deccan' — whoever controlled it controlled passage between North and South India. Local legend says immortal Ashwatthama from Mahabharata visits the Shiva temple here daily. Forest glows green in July.",acts:[["🕌","Shiva Temple","Allegedly visited daily by immortal Ashwatthama from Mahabharata"],["👁️","Satpura Views","Panoramic Satpura range & Tapti Valley views from the top"],["🌲","Forest Trek","Green forest path to the fort in July monsoon"],["🏰","Burhanpur City","Historic Mughal city — Mumtaz Mahal first rested here"]],tip:"Combine with Burhanpur's Mughal monuments — Shahi Qila and Kala Taj Mahal nearby."},
+],
+
+"Rajasthan Monsoon": [
+{name:"Bundi",wiki:"Bundi",state:"Rajasthan",crowd:"Minimal",travel:"~4 hrs",weather:"27-34C, Aravalli hills vivid green",budget:"Rs2,500-3,800",route:"Jaipur > Bundi (direct bus, 4 hrs via Tonk)",about:"The most cinematic town in Rajasthan. A 14th-century palace draped in vines and inhabited by monkeys, the magnificent Raniji ki Baori step-well, and lanes of indigo-painted houses. July turns the surrounding Aravalli hills vivid green and monsoon clouds frame the fort dramatically.",acts:[["🏯","Taragarh Fort","14th-century fort palace — vines, monkeys and monsoon mist"],["🌊","Raniji ki Baori","One of India finest step-wells — dramatic geometry at 46m deep"],["🎨","Painted Havelis","Blue-painted lanes with 18th-century frescoes at every corner"],["🦚","Chitrashala","Palace hall with stunning original Rajput murals — free entry"]],tip:"Stay in a heritage haveli. Haveli Braj Bhushanjee offers rooms with fort views from Rs1,200.",moods:["history","monsoon","peace"]},
+{name:"Kumbhalgarh",wiki:"Kumbhalgarh",state:"Rajasthan",crowd:"Low",travel:"~6 hrs",weather:"24-32C, walls emerge from monsoon mist",budget:"Rs3,200-4,800",route:"Jaipur > Ajmer > Udaipur (bus) > Kumbhalgarh (taxi, 80km)",about:"Home to the Great Wall of India — a 36km fort wall that snakes through monsoon-green Aravalli hills, the second longest wall in the world after China. Inside the walls lies a wildlife sanctuary. Birthplace of Maharana Pratap. July mist wraps the ancient walls dramatically.",acts:[["🏯","The Great Wall","36km wall through monsoon jungle — walk sections at dawn"],["🌲","Wildlife Sanctuary","Wolf, leopard, sloth bear — active in monsoon inside the walls"],["⛩️","360 Temples","Over 360 ancient temples inside the massive fort complex"],["🌅","Sunset at the Wall","Fort wall silhouette at sunset with Aravalli hills below"]],tip:"Combine with Ranakpur Jain Temples 40km away — extraordinary 15th-century marble architecture.",moods:["history","wildlife","monsoon"]},
+{name:"Chittorgarh",wiki:"Chittorgarh",state:"Rajasthan",crowd:"Low",travel:"~5 hrs",weather:"28-36C, plateau fort in monsoon clouds",budget:"Rs2,800-4,200",route:"Jaipur > Chittorgarh (direct train, ~4.5 hrs)",about:"India's largest fort complex at 700 acres — a full plateau with seven gates, 65 monuments, and centuries of Rajput glory. The 37m Vijay Stambha victory tower, Padmini Palace, Rani Kumbha's palace, Meera Bai's temple. July monsoon clouds wrap the plateau in extraordinary drama.",acts:[["🏯","Vijay Stambha","37m victory tower — climb to the top for panoramic views"],["🏛️","Padmini Palace","Palace of the legendary Rani Padmini — set on a lake"],["⛩️","Meera Bai Temple","Temple of the poet-saint Meera Bai — deeply atmospheric"],["🌧️","Monsoon Plateau Walk","Walk the 700-acre fort in monsoon mist and fresh green"]],tip:"Hire a cycle inside the fort — it is huge. One entry ticket covers all monuments inside.",moods:["history","monsoon"]},
+{name:"Ranthambore",wiki:"Ranthambore_National_Park",state:"Rajasthan",crowd:"Minimal",travel:"~4-5 hrs",weather:"28-38C, forest green, buffer open",budget:"Rs3,500-5,200",route:"Jaipur > Sawai Madhopur (train, 2.5 hrs) > Ranthambore",about:"The tiger safari closes in July but Ranthambore Fort — a UNESCO World Heritage Site — is completely empty and free to visit. Ancient temples, crocodile-filled lakes, and a dramatic 10th-century fort at the convergence of two rivers. The forest turns lush green and monsoon birds fill the air.",acts:[["🏯","Ranthambore Fort","UNESCO 10th-century fort — completely deserted in July"],["🐊","Padam Talao","Crocodile lake inside the park — accessible in July"],["🦅","Bird Watching","Monsoon brings hundreds of species to the lakes"],["🌿","Forest Walks","Guided walks in buffer zone — active and beautiful in July"]],tip:"Fort is completely free and empty in July — you will have the entire UNESCO site to yourself.",moods:["history","wildlife","peace"]},
+{name:"Nagaur",wiki:"Nagaur",state:"Rajasthan",crowd:"Minimal",travel:"~4 hrs",weather:"30-38C, dramatic desert light",budget:"Rs2,200-3,400",route:"Jaipur > Nagaur (direct bus, ~4 hrs)",about:"An under-the-radar Mughal-Rajput fort town. The Ahhichatragarh Fort is one of Rajasthan's finest restorations — a massive complex of palaces, mosques, step-wells, and frescos. Almost completely tourist-free despite being extraordinary. Authentic chai shops and forgotten havelis fill the old city.",acts:[["🏯","Ahhichatragarh Fort","One of Rajasthan's finest and least-visited restored fort complexes"],["🌊","Fort Step-wells","Multiple ancient step-wells inside the fort walls"],["🕌","Mughal Architecture","Hammam, mosque, and palaces from different eras inside one fort"],["🛒","Old City Walk","Authentic Rajasthani market lanes and havelis outside the fort"]],tip:"One of the most underrated forts in India. Budget accommodation inside fort walls available.",moods:["history","peace"]}
+],
+
+"Northeast India": [
+{name:"Cherrapunji",wiki:"Cherrapunji",state:"Meghalaya",crowd:"Low",travel:"~30 hrs",weather:"15-22C, heaviest monsoon on Earth",budget:"Rs8,000-11,000",route:"Jaipur > Guwahati (train, 26 hrs) > Shillong (bus, 3 hrs) > Cherrapunji (taxi, 1.5 hrs)",about:"One of the wettest places on Earth, and July is when it becomes absolutely spectacular. Nohkalikai Falls — India's tallest at 340m — thunders into a deep green gorge. Waterfalls erupt from every cliff face. The living root bridges of Nongriat village are a 45-minute trek from the road.",acts:[["💧","Nohkalikai Falls","India's tallest waterfall at 340m — full thunder in July"],["🌉","Living Root Bridges","Ancient Khasi bridges woven from living tree roots — centuries old"],["🌊","Seven Sisters Falls","Seven parallel waterfalls visible from one viewpoint"],["🌫️","Mawsmai Caves","Limestone caves and Echo Point — dramatic in monsoon"]],tip:"Carry full rain gear — you WILL be soaked. That is the entire point and it is magical.",moods:["monsoon","trek","wildlife"]},
+{name:"Majuli Island",wiki:"Majuli",state:"Assam",crowd:"Minimal",travel:"~28 hrs",weather:"26-32C, Brahmaputra rises dramatically",budget:"Rs5,500-8,000",route:"Jaipur > Guwahati (train) > Jorhat (bus, 3 hrs) > Nimati Ghat ferry > Majuli",about:"The world's largest inhabited river island floats in the mighty Brahmaputra. In July the river swells to near-submerge the island edges creating a surreal water world. Ancient Vaishnavite satras (monasteries) date back 500 years. Rare Gangetic river dolphins swim nearby. Mask-making traditions are alive here.",acts:[["🛶","Ferry Crossing","Brahmaputra ferry — dramatic in monsoon flood season"],["🕌","Vaishnavite Satras","Ancient 500-yr monasteries with dance and mask traditions"],["🐬","River Dolphin","Spot rare Gangetic river dolphins in the Brahmaputra"],["🎭","Mask Making","Watch traditional craftsmen carve ceremonial masks by hand"]],tip:"Stay in a satra homestay — monks often host travelers and home-cooked meals are included.",moods:["peace","wildlife","monsoon"]},
+{name:"Ziro Valley",wiki:"Ziro_Valley",state:"Arunachal Pradesh",crowd:"Minimal",travel:"~32 hrs",weather:"15-22C, rice fields intensely green",budget:"Rs6,500-9,000",route:"Jaipur > Guwahati (train) > Itanagar (bus, 4 hrs) > Ziro (bus, 5 hrs)",about:"A UNESCO World Heritage tentative site where terraced rice paddy fields stretch to pine-covered hills. Home of the Apatani tribe who practice a unique sustainable agriculture system. In July the paddy is bright green and the valley is cool and misty. Inner Line Permit required but easy to get online.",acts:[["🌾","Apatani Paddies","UNESCO tentative: terraced rice fields stretching to pine hills"],["🌲","Pine Forest Trek","Trek through pine forests above the valley at 1,500m"],["🎵","Cultural Homestays","Stay with Apatani families — rich century-old traditions alive"],["👩","Apatani Tribe","Ancient community with unique sustainable organic farming"]],tip:"Get Inner Line Permit online at arunachalitc.nic.in before travel — takes 24 hours to process.",moods:["peace","trek","wildlife"]},
+{name:"Dawki",wiki:"Dawki",state:"Meghalaya",crowd:"Low",travel:"~30 hrs",weather:"18-26C, river full and dramatic",budget:"Rs7,000-10,000",route:"Jaipur > Guwahati (train) > Shillong (bus, 3 hrs) > Dawki (bus, 3 hrs)",about:"The Umngot River at Dawki is famous for its crystal-clear water. In July the monsoon fills it to dramatic levels — the turquoise-green current roars through a canyon of lush hills. The suspension bridge over it is a visual spectacle. The Bangladesh border is just 500m away.",acts:[["🚣","River Boating","Boat on the rushing Umngot — dramatic in full monsoon"],["🌉","Suspension Bridge","Old bridge over the river — iconic views toward Bangladesh"],["💧","Canyon Walk","Walk the riverbank canyon in full monsoon green"],["🏘️","Shnongpdeng","Camping village 15km upstream — calmer water for swimming"]],tip:"Combine Dawki with Mawlynnong (1.5 hrs away) for a perfect 2-day Meghalaya loop.",moods:["monsoon","trek","peace"]},
+{name:"Mawlynnong",wiki:"Mawlynnong",state:"Meghalaya",crowd:"Low",travel:"~30 hrs",weather:"18-24C, cleanest air, monsoon green",budget:"Rs6,500-9,000",route:"Jaipur > Guwahati (train) > Shillong > Mawlynnong (4 hrs total from Shillong)",about:"Declared Asia's Cleanest Village. Bamboo dustbins line every path, flowers bloom on every fence, and the community has maintained zero-waste culture for generations. A bamboo sky walk climbs above the canopy for views into Bangladesh. July turns the entire Khasi Hills into intense green.",acts:[["🌿","Village Walk","Walk the immaculate lanes — flowers on every path and fence"],["🌳","Sky Walk","Bamboo watchtower above tree canopy — views to Bangladesh"],["🌉","Living Root Bridge","Single-decker root bridge 2km from village center"],["🦋","Orchid Trail","Over 200 orchid species bloom during the July monsoon"]],tip:"Stay overnight — the village at night is completely silent and starry. Worth the detour from Dawki.",moods:["peace","wildlife","monsoon"]},
+{name:"Dzukou Valley",wiki:"Dzukou_Valley",state:"Nagaland",crowd:"Minimal",travel:"~34 hrs",weather:"8-16C, valley carpeted in flowers",budget:"Rs7,500-10,500",route:"Jaipur > Guwahati (train) > Dimapur (bus, 3 hrs) > Kohima (bus, 3 hrs) > Viswema > trek",about:"Called the Valley of Flowers of the Northeast. In July the valley floor turns vivid with Dzukou lilies, rhododendrons, and wildflowers of every color. A 4-hour trek from Viswema base village. At 2,500m the temperature is cool even in July. Almost no tourists make it this far east.",acts:[["🌸","Dzukou Lilies","Endemic lily species that carpet the valley in July monsoon"],["⛺","Valley Camping","Camp in the valley at 2,500m — cool nights and absolute silence"],["🥾","Viswema Trek","4-hour approach trek through dense Naga subtropical forest"],["🦅","Bird Watching","Rare Northeast species including hornbills and sunbirds"]],tip:"Carry Permit for Nagaland — obtain at Nagaland House in Delhi or apply online.",moods:["trek","wildlife","peace"]},
+{name:"Tawang",wiki:"Tawang",state:"Arunachal Pradesh",crowd:"Minimal",travel:"~36 hrs",weather:"8-15C, clouds, dramatic mountain passes",budget:"Rs9,000-13,000",route:"Jaipur > Guwahati (train) > Tezpur (bus, 3.5 hrs) > Tawang (Sumo jeep, 12 hrs via Sela Pass)",about:"At 3,048m, Tawang is home to the largest Buddhist monastery in India — a 17th-century complex of 65 buildings. The route crosses Sela Pass at 4,170m where clouds hang over frozen lakes. The War Memorial commemorates the 1962 Indo-China conflict. In July the valleys below are impossibly green.",acts:[["🕌","Tawang Monastery","Largest Buddhist monastery in India — 400-year-old, 65 buildings"],["🏔️","Sela Pass","4,170m mountain pass — snow and dramatic clouds in July"],["🌊","Nuranang Falls","Dramatic waterfall directly on the route to Tawang"],["🏛️","War Memorial","1962 India-China war memorial — deeply moving tribute"]],tip:"Inner Line Permit mandatory. The 12-hour mountain drive via Sela Pass is itself an unforgettable experience.",moods:["trek","history","peace"]}
+],
+
+"South India": [
+{name:"Hampi",wiki:"Hampi",state:"Karnataka",crowd:"Low",travel:"~20 hrs",weather:"22-30C, ruins in monsoon green",budget:"Rs5,500-7,500",route:"Jaipur > Hyderabad (train, 12 hrs) > Hospet (train, 8 hrs) > Hampi (bus, 30 min)",about:"A UNESCO World Heritage Site — the capital of the Vijayanagara Empire in ruins across a spectacular boulder-strewn landscape. In July the scrub turns vivid green, the Tungabhadra River fills, and you can float in a coracle boat past ancient monuments. Breathtaking at every turn.",acts:[["🏛️","Virupaksha Temple","Living 7th-century temple at the heart of the ruined empire"],["🚣","Coracle Ride","Float in a round boat across the Tungabhadra past ancient ruins"],["🗿","Vittala Temple","Stone chariot and musical pillars — extraordinary craftsmanship"],["🌅","Matanga Hill","Climb at sunrise for the best panoramic view of all the ruins"]],tip:"Rent a bicycle — the site spreads over 26 sq km. Budget guesthouses in Virupapur Gadde are excellent.",moods:["history","monsoon","peace"]},
+{name:"Coorg",wiki:"Kodagu_district",state:"Karnataka",crowd:"Low",travel:"~22 hrs",weather:"16-22C, coffee estates in heavy rain",budget:"Rs6,500-9,500",route:"Jaipur > Bangalore (train, 18 hrs) > Madikeri (bus, 5 hrs)",about:"The Scotland of India — a highland district of coffee and spice estates, dense rainforest, misty waterfalls, and Kodava warrior culture. In July the coffee estates are lush green and fragrant, Abbey Falls thunders at full volume, and mist hangs so thick you cannot see the valley below Madikeri.",acts:[["☕","Coffee Estate Walk","Walk through rain-soaked Arabica estates with a local planter"],["💧","Abbey Falls","Dramatic waterfall at peak July monsoon — completely thundering"],["🐘","Nagarhole","Elephant herds in Nagarhole National Park buffer zone"],["⛩️","Omkareshwara Temple","Unique temple blending Hindu and Islamic architecture beautifully"]],tip:"Stay in a homestay on a working coffee estate — includes estate walks and home-cooked Kodava food.",moods:["monsoon","wildlife","peace"]},
+{name:"Wayanad",wiki:"Wayanad_district",state:"Kerala",crowd:"Low",travel:"~22 hrs",weather:"18-24C, heavy monsoon, waterfall season",budget:"Rs6,000-8,500",route:"Jaipur > Bangalore (train) > Calicut (train) > Kalpetta (bus, 2 hrs)",about:"The most biodiverse district in South India at 700-900m elevation. In July the forests receive heavy rain, Meenmutty Falls (three-tiered, 300m total) is at full glory accessible only in monsoon, and mist hangs over tea plantations. Edakkal Caves have Neolithic petroglyphs going back 6,000 years.",acts:[["💧","Meenmutty Falls","300m three-tiered waterfall — accessible only during monsoon"],["🗿","Edakkal Caves","Neolithic rock art petroglyphs — 6,000 years old"],["🐘","Wayanad Sanctuary","Elephant herds, gaurs, and leopards — very active in monsoon"],["🌿","Chembra Peak","Trek to heart-shaped lake — accessible in July mornings"]],tip:"Book a tribal community homestay in Thirunelly area — the best way to experience forest life.",moods:["monsoon","wildlife","trek"]},
+{name:"Lonar Crater",wiki:"Lonar_crater_lake",state:"Maharashtra",crowd:"Minimal",travel:"~18 hrs",weather:"24-32C, lake green, forest monsoon",budget:"Rs3,500-5,000",route:"Jaipur > Aurangabad (train, 14 hrs) > Lonar (bus, 4 hrs)",about:"The only hypervelocity meteorite impact crater in basaltic rock on Earth — formed 52,000 years ago. The resulting crater lake is 1.8km wide, both saline and alkaline simultaneously. Ancient temples ring the crater rim. Almost no one visits despite being scientifically extraordinary.",acts:[["🌊","Crater Lake Walk","Complete 7km circumambulation of the crater rim"],["⛩️","Ancient Temples","Temples to Vishnu and Shiva inside the ancient crater walls"],["🔭","Meteorite Impact Site","The actual impact site — scientifically unique in all of India"],["🦅","Bird Watching","Flamingos and migratory birds on the alkaline crater lake"]],tip:"Most unique geological site in all of India. Ajanta-Ellora caves are 4 hours away — combine both.",moods:["wildlife","history","peace"]},
+{name:"Agumbe",wiki:"Agumbe",state:"Karnataka",crowd:"Minimal",travel:"~22 hrs",weather:"18-24C, highest rainfall in South India",budget:"Rs4,500-6,500",route:"Jaipur > Bangalore (train) > Shimoga (bus, 4 hrs) > Agumbe (bus, 2 hrs)",about:"The Cherrapunji of the South — receives some of India's heaviest rainfall with waterfalls erupting from every hillside. Famous as the King Cobra capital of India and the setting for the novel Malgudi Days. The ARRS research station works with king cobras. July makes the entire Malnad region a deep green wilderness.",acts:[["🐍","King Cobra Spotting","Highest density of king cobras in India — guided walks available"],["💧","Onake Abbi Falls","Dramatic forest waterfall — only fully accessible in monsoon"],["🌅","Sunset Point","Famous viewpoint across the Western Ghats below"],["🌲","Rainforest Walk","Dense Shola forest walks with ARRS rainforest researchers"]],tip:"Stay at ARRS (Agumbe Rainforest Research Station) for the most unique experience — book months ahead.",moods:["wildlife","monsoon","peace"]},
+{name:"Kolad",wiki:"Kolad,_Maharashtra",state:"Maharashtra",crowd:"Low",travel:"~15 hrs",weather:"24-30C, river at peak, monsoon rafting",budget:"Rs4,000-5,800",route:"Jaipur > Mumbai (train, 14 hrs) > Kolad (bus, 2 hrs)",about:"India's premier white-water rafting destination, and July is when the Kundalika River is at its absolute most intense. Grade 3-4 rapids running for 14km. The rafting season runs specifically because of the monsoon. Surrounded by Sahyadri forest and waterfalls, with a beautiful estuary nearby.",acts:[["🚣","Kundalika Rafting","14km Grade 3-4 rapids — peak intensity is in monsoon July"],["💧","Waterfall Jumping","Monsoon waterfalls for cliff jumping and swimming nearby"],["🌲","Sahyadri Forest","Trek into the adjacent Sahyadri forest wildlife corridor"],["🏰","Revdanda Fort","16th-century Portuguese fort at the nearby coastal estuary"]],tip:"Book 2-day packages including camping, rafting, and waterfall trek — best overall value.",moods:["trek","monsoon","wildlife"]}
+]
+};
+
+// ─────────────────────────────────────────────────────────
+// HELPERS
+// ─────────────────────────────────────────────────────────
+function bg(state){
+  if(state.includes('Himachal'))return'linear-gradient(135deg,#1A237E,#3949AB)';
+  if(state.includes('Uttarakhand'))return'linear-gradient(135deg,#1B5E20,#388E3C)';
+  if(state.includes('Rajasthan'))return'linear-gradient(135deg,#BF360C,#E64A19)';
+  if(state.includes('Punjab'))return'linear-gradient(135deg,#0D47A1,#1976D2)';
+  if(state.includes('Gujarat'))return'linear-gradient(135deg,#E65100,#F57C00)';
+  if(state.includes('Maharashtra'))return'linear-gradient(135deg,#B71C1C,#D32F2F)';
+  if(state.includes('Madhya'))return'linear-gradient(135deg,#4A148C,#7B1FA2)';
+  return'linear-gradient(135deg,#1A4A4A,#2E7D7D)';
+}
+function cc(c){return c==='Minimal'?'cm':c==='Low'?'cl':'co';}
+
+// ─────────────────────────────────────────────────────────
+// IMAGE SYSTEM — Complete rewrite using Commons generator=search
+// One JSONP call → up to 25 images with direct URLs. No chains.
+// ─────────────────────────────────────────────────────────
+const imgCache = {};   // wiki → [url, url, ...]
+let cbN = 0;
+
+// Better search terms for places where plain name gives poor results
+const searchTerms = {
+  'Gir_Forest_National_Park' : 'Gir Forest National Park Asiatic lion Gujarat',
+  'Binsar_Wildlife_Sanctuary': 'Binsar Uttarakhand forest Himalaya',
+  'Tirthan_Valley'           : 'Tirthan Valley Himachal Pradesh river',
+  'Jibhi,_Himachal_Pradesh'  : 'Jibhi Himachal Pradesh village',
+  'Lansdowne,_Uttarakhand'   : 'Lansdowne Uttarakhand hill station',
+  'Barot,_Himachal_Pradesh'  : 'Barot Valley Himachal Pradesh',
+  'Mandu,_Madhya_Pradesh'    : 'Mandu Madhya Pradesh fort palace',
+  'Diu,_India'               : 'Diu island Gujarat fort beach',
+  'Rann_of_Kutch'            : 'Rann of Kutch Gujarat desert salt',
+  'Kolad,_Maharashtra'       : 'Kolad Kundalika river Maharashtra monsoon',
+  'Wayanad_district'         : 'Wayanad Kerala forest waterfall elephant',
+  'Kodagu_district'          : 'Coorg Kodagu Karnataka coffee estate waterfall',
+  'Lonar_crater_lake'        : 'Lonar crater lake Maharashtra meteorite',
+  'Ranthambore_National_Park': 'Ranthambore fort Rajasthan tiger reserve',
+  'Kumbhalgarh'              : 'Kumbhalgarh fort wall Rajasthan Aravalli',
+  'Dzukou_Valley'            : 'Dzukou Valley Nagaland flowers lily',
+  'Tawang'                   : 'Tawang monastery Arunachal Pradesh Buddhist',
+  'Mawlynnong'               : 'Mawlynnong cleanest village Meghalaya',
+  'Majuli'                   : 'Majuli island Assam Brahmaputra satra',
+  'Ziro_Valley'              : 'Ziro Valley Arunachal Pradesh Apatani rice field',
+  'Cherrapunji'              : 'Cherrapunji waterfall Meghalaya Nohkalikai',
+  'Dawki'                    : 'Dawki Umngot river Meghalaya crystal',
+  'Hampi'                    : 'Hampi ruins Vijayanagara Karnataka UNESCO',
+  'Agumbe'                   : 'Agumbe rainforest Karnataka king cobra',
+};
+
+/** Is this image URL worth showing? Filter out icons, logos, maps etc. */
+function isGoodImg(url){
+  if(!url) return false;
+  if(!/\.(jpg|jpeg|png|webp)/i.test(url)) return false;
+  if(/icon|logo|flag|locator|blank|seal|coat|emblem|signature|button|wikimedia-logo|commons-logo|wikipedia-logo|\bmap\b|district_map|location_map|india_map|relief_map/i.test(url)) return false;
+  return true;
+}
+
+/** Generic JSONP: fires URL+'&callback=cbName', calls fn(data) or fn(null) on timeout */
+function jsonp(url, fn, ms){
+  ms = ms||9000;
+  const id='_cb'+cbN++;
+  const tid=setTimeout(()=>{ try{delete window[id];}catch(e){} cleanup(id); fn(null); }, ms);
+  window[id]=function(d){ clearTimeout(tid); cleanup(id); fn(d); };
+  function cleanup(n){ const s=document.getElementById('_s'+n); if(s)s.remove(); }
+  const s=document.createElement('script');
+  s.id='_s'+id;
+  s.onerror=()=>{ clearTimeout(tid); try{delete window[id];}catch(e){} cleanup(id); fn(null); };
+  s.src=url+'&callback='+id;
+  document.head.appendChild(s);
+}
+
+/**
+ * fetchCommonsImages(searchTerm, limit, callback)
+ * Uses generator=search — ONE call that returns URLs directly.
+ * No second step needed.
+ */
+function fetchCommonsImages(searchTerm, limit, cb){
+  const url='https://commons.wikimedia.org/w/api.php'
+    +'?action=query&generator=search'
+    +'&gsrsearch='+encodeURIComponent(searchTerm)
+    +'&gsrnamespace=6&gsrlimit='+limit
+    +'&prop=imageinfo&iiprop=url&format=json';
+  jsonp(url, function(d){
+    if(!d){cb([]);return;}
+    const pages=d.query&&d.query.pages;
+    const urls=[];
+    if(pages){
+      Object.values(pages).forEach(function(pg){
+        const u=pg.imageinfo&&pg.imageinfo[0]&&pg.imageinfo[0].url;
+        if(isGoodImg(u)) urls.push(u);
+      });
+    }
+    cb(urls);
+  });
+}
+
+// ─────────────────────────────────────────────────────────
+// COVER IMAGE LOADER
+// Step 1: Try Wikipedia pageimages (fast, high quality)
+// Step 2: If nothing → fall back to Commons generator=search
+// ─────────────────────────────────────────────────────────
+function loadCoverImg(wiki, name, pid){
+  const title=wiki.replace(/_/g,' ');
+  jsonp(
+    'https://en.wikipedia.org/w/api.php?action=query&prop=pageimages'
+    +'&pithumbsize=700&piprop=thumbnail&format=json'
+    +'&titles='+encodeURIComponent(title),
+    function(d){
+      let src=null;
+      try{
+        const pg=d&&d.query&&d.query.pages;
+        const p=pg&&Object.values(pg)[0];
+        src=p&&p.thumbnail&&p.thumbnail.source;
+      }catch(e){}
+
+      if(src){
+        const big=src.replace(/\/\d+px-/,'/700px-');
+        if(!imgCache[wiki]) imgCache[wiki]=[big.replace('/700px-','/1000px-')];
+        showCover(pid, big, name);
+      } else {
+        // Wikipedia had no thumbnail → search Commons directly
+        const term=searchTerms[wiki]||name;
+        fetchCommonsImages(term, 6, function(urls){
+          if(urls.length){
+            if(!imgCache[wiki]) imgCache[wiki]=[...urls];
+            showCover(pid, urls[0], name);
+          }
+          // else placeholder stays
+        });
+      }
+    }
+  );
+}
+
+function showCover(pid, src, name){
+  const el=document.getElementById(pid);
+  if(!el) return;
+  const img=document.createElement('img');
+  img.src=src;
+  img.alt=name;
+  img.style.cssText='width:100%;height:100%;object-fit:cover;display:block';
+  img.onerror=function(){ /* leave placeholder, don't spam errors */ };
+  el.replaceWith(img);
+}
+
+// ─────────────────────────────────────────────────────────
+// LIGHTBOX
+// ─────────────────────────────────────────────────────────
+let lbImages=[], lbIdx=0, lbWiki='', lbName='';
+
+function openLB(wiki, name, state){
+  lbWiki=wiki; lbName=name;
+  lbImages=imgCache[wiki]?[...imgCache[wiki]]:[];
+  lbIdx=0;
+  document.getElementById('lb-title').textContent='📍 '+name;
+  document.getElementById('lb-subtitle').textContent=state+' · Use arrows or thumbnails to browse';
+  document.getElementById('lb').classList.add('open');
+  document.body.style.overflow='hidden';
+
+  const loadingEl=document.getElementById('lb-loading');
+  if(lbImages.length){
+    loadingEl.style.display='none';
+    renderLB();
+  } else {
+    document.getElementById('lb-img').src='';
+    loadingEl.style.display='block';
+    document.getElementById('lb-thumbs').innerHTML='';
+    document.getElementById('lb-counter').textContent='Fetching photos…';
+  }
+  loadGallery(wiki, name);
+}
+
+/**
+ * loadGallery: fetch Commons images for gallery.
+ * Two parallel searches → combine → show. All JSONP, no await.
+ */
+function loadGallery(wiki, name){
+  // Use a better search term if we have one
+  const term1=searchTerms[wiki]||name;
+  // Also try a secondary search with "India" appended for obscure places
+  const term2=name+' India';
+  let results1=null, results2=null;
+
+  function merge(){
+    if(results1===null||results2===null) return; // wait for both
+    const seen=new Set(imgCache[wiki]||[]);
+    const combined=[...(imgCache[wiki]||[])];
+    [results1,results2].forEach(function(arr){
+      arr.forEach(function(u){ if(!seen.has(u)){ seen.add(u); combined.push(u); }});
+    });
+    imgCache[wiki]=combined;
+    if(lbWiki===wiki){
+      lbImages=[...combined];
+      document.getElementById('lb-loading').style.display='none';
+      if(combined.length) renderLB();
+      else document.getElementById('lb-counter').textContent='No photos found';
+    }
+  }
+
+  fetchCommonsImages(term1, 20, function(urls){ results1=urls; merge(); });
+  fetchCommonsImages(term2, 12, function(urls){ results2=urls; merge(); });
+}
+
+function renderLB(){
+  if(!lbImages.length) return;
+  const img=document.getElementById('lb-img');
+  const thumbs=document.getElementById('lb-thumbs');
+  const counter=document.getElementById('lb-counter');
+  img.classList.add('loading');
+  img.onload=()=>img.classList.remove('loading');
+  img.src=lbImages[lbIdx];
+  img.alt=lbName;
+  counter.textContent=(lbIdx+1)+' / '+lbImages.length;
+  // Render thumbs
+  thumbs.innerHTML=lbImages.map((u,i)=>`<img class="lb-thumb${i===lbIdx?' active':''}" src="${u}" loading="lazy" onclick="lbGoto(${i})" alt="Photo ${i+1}">`).join('');
+  // Scroll active thumb into view
+  setTimeout(()=>{
+    const active=thumbs.querySelector('.lb-thumb.active');
+    if(active) active.scrollIntoView({behavior:'smooth',block:'nearest',inline:'center'});
+  },100);
+}
+
+function lbNav(dir){
+  if(!lbImages.length) return;
+  lbIdx=(lbIdx+dir+lbImages.length)%lbImages.length;
+  renderLB();
+}
+function lbGoto(i){ lbIdx=i; renderLB(); }
+function lbImgErr(){ lbNav(1); }
+
+function closeLB(){
+  document.getElementById('lb').classList.remove('open');
+  document.body.style.overflow='';
+}
+
+// Close on backdrop click
+document.getElementById('lb').addEventListener('click',function(e){
+  if(e.target===this) closeLB();
+});
+// Keyboard navigation
+document.addEventListener('keydown',e=>{
+  if(!document.getElementById('lb').classList.contains('open')) return;
+  if(e.key==='ArrowRight') lbNav(1);
+  else if(e.key==='ArrowLeft') lbNav(-1);
+  else if(e.key==='Escape') closeLB();
+});
+
+// ─────────────────────────────────────────────────────────
+// CARD BUILDER
+// ─────────────────────────────────────────────────────────
+function card(p, idx){
+  const pid='_p'+idx;
+  // Use data-* attributes on the photo div to avoid quote-escaping issues in onclick
+  const wikiSafe = p.wiki;
+  const nameSafe = p.name.replace(/&/g,'&amp;');
+  const stateSafe = p.state.replace(/&/g,'&amp;');
+  const acts = p.acts.map(function(a){
+    return '<div class=act><span class=ai>'+a[0]+'</span><span><b>'+a[1]+':</b> '+a[2]+'</span></div>';
+  }).join('');
+  const tipHtml = p.tip ? '<div class=tip>💡 <b>Pro Tip:</b> '+p.tip+'</div>' : '';
+  return '<div class=card>'
+    +'<div class="photo" data-wiki="'+wikiSafe+'" data-name="'+nameSafe+'" data-state="'+stateSafe+'" onclick="handlePhotoClick(this)">'
+    +'<div id="'+pid+'" class="ph" style="background:'+bg(p.state)+'"><div class=em>📍</div><div class=lt>Loading photo…</div></div>'
+    +'<span class="ctag '+cc(p.crowd)+'">'+p.crowd+' Crowd</span>'
+    +'<div class="mood-tags">'+(p.moods||[]).slice(0,2).map(function(m){var em={monsoon:'🌧️',history:'🏯',wildlife:'🐆',trek:'🧗',peace:'🕊️'};return '<span class="mood-tag mt-'+m+'">'+em[m]+' '+m+'</span>';}).join('')+'</div>'
+    +'<div class="gallery-hint">🖼️ Tap to view gallery</div>'
+    +'</div>'
+    +'<div class=body>'
+    +'<div class=nm>'+p.name+'</div>'
+    +'<div class=st>📍 '+p.state+'</div>'
+    +'<div class=pills>'
+    +'<div class=pill>🕐 <b>'+p.travel+'</b></div>'
+    +'<div class=pill>🌤️ <b>'+p.weather+'</b></div>'
+    +'</div>'
+    +'<div class=abt>'+p.about+'</div>'
+    +'<div class=att>🎯 Things To Do</div>'
+    +'<div class=acts>'+acts+'</div>'
+    +'<div class=bx>'
+    +'<div><div class=bl2>Estimated Budget</div><div class=ba>'+p.budget+' /person</div></div>'
+    +'<span style="font-size:1.4rem">💰</span>'
+    +'</div>'
+    +'<div class=rb><b>Route:</b> '+p.route+'</div>'
+    +tipHtml
+    +'</div>'
+    +'</div>';
+}
+
+function handlePhotoClick(el){
+  openLB(el.dataset.wiki, el.dataset.name, el.dataset.state);
+}
+
+// ─────────────────────────────────────────────────────────
+// SEARCH / FILTER
+// ─────────────────────────────────────────────────────────
+let currentSection='';
+function filterCards(){
+  const q=document.getElementById('search').value.toLowerCase().trim();
+  const budget=document.getElementById('budget-filter').value;
+  let count=0;
+  document.querySelectorAll('.card-wrap').forEach(wrap=>{
+    const name=wrap.dataset.name.toLowerCase();
+    const state=wrap.dataset.state.toLowerCase();
+    const acts=wrap.dataset.acts.toLowerCase();
+    const bMin=parseInt(wrap.dataset.bmin)||0;
+    const matchQ=!q||name.includes(q)||state.includes(q)||acts.includes(q);
+    const matchB=!budget||(budget==='1'&&bMin<4000)||(budget==='2'&&bMin>=4000&&bMin<7000)||(budget==='3'&&bMin>=7000&&bMin<=15000);
+    wrap.style.display=(matchQ&&matchB)?'':'none';
+    if(matchQ&&matchB) count++;
+  });
+  const nr=document.getElementById('no-results');
+  if(nr) nr.style.display=count?'none':'block';
+}
+
+// ─────────────────────────────────────────────────────────
+// SUMMARY TABLE
+// ─────────────────────────────────────────────────────────
+function summary(){
+  document.getElementById('search-bar').style.display='none';
+  let rows='';
+  Object.entries(D).forEach(([cat,ps])=>{
+    ps.forEach(p=>{
+      const ds=p.crowd==='Minimal'?'background:#2E7D32':p.crowd==='Low'?'background:#1565C0':'background:#E65100';
+      const moodTags=(p.moods||[]).map(m=>`<span class="mood-tag mt-${m}" style="font-size:.5rem;padding:2px 5px">${{monsoon:'🌧️',history:'🏯',wildlife:'🐆',trek:'🧗',peace:'🕊️'}[m]}</span>`).join('');
+      rows+=`<tr><td><b>${p.name}</b></td><td>${p.state.split('(')[0].trim()}</td><td>${cat}</td><td>${p.travel}</td><td>${p.budget}</td><td><span class=dot style="${ds}"></span>${p.crowd}</td><td>${moodTags}</td></tr>`;
+    });
+  });
+  document.getElementById('content').innerHTML=`<div class=tw><h2>📊 All 40 Destinations — Quick Comparison</h2><div class=ovx><table><thead><tr><th>Destination</th><th>State</th><th>Category</th><th>Travel</th><th>Budget/Person</th><th>Crowd</th><th>Vibe</th></tr></thead><tbody>${rows}</tbody></table></div></div>`;
+}
+
+// ─────────────────────────────────────────────────────────
+// RENDER SECTION
+// ─────────────────────────────────────────────────────────
+let gIdx=0;
+function render(name){
+  activeMood=null;
+  document.querySelectorAll('.mood-btn').forEach(b=>b.classList.remove('active'));
+  const mc=document.getElementById('mood-clear');if(mc)mc.style.display='none';
+  currentSection=name;
+  if(name==='__all__'){summary();return;}
+  const ps=D[name];
+  if(!ps) return;
+  document.getElementById('search-bar').style.display='flex';
+  // Reset search
+  document.getElementById('search').value='';
+  document.getElementById('budget-filter').value='';
+
+  let html=`<div class=sec-ttl>${name.toUpperCase()}</div><div class=grid id="main-grid">`;
+  const ids=[];
+  ps.forEach((p,i)=>{
+    const idx=name.replace(/\s/g,'')+i+(gIdx++);
+    ids.push({wiki:p.wiki,pid:'_p'+idx,name:p.name});
+    // Extract min budget number for filtering
+    const bMin=parseInt((p.budget.match(/[\d,]+/)||['0'])[0].replace(',',''))||0;
+    html+=`<div class="card-wrap" style="animation-delay:${i*0.05}s" data-name="${p.name}" data-state="${p.state}" data-acts="${p.acts.map(a=>a[1]).join(' ')}" data-bmin="${bMin}">${card(p,idx)}</div>`;
+  });
+  html+=`</div><div id="no-results" class="no-results" style="display:none">No destinations match your search 😔</div>`;
+  document.getElementById('content').innerHTML=html;
+  setTimeout(()=>ids.forEach(({wiki,pid,name})=>loadCoverImg(wiki,name,pid)),80);
+}
+
+// ─────────────────────────────────────────────────────────
+// NAV
+// ─────────────────────────────────────────────────────────
+
+// ─────────────────────────────────────────────────────────
+// MOOD FILTER
+// ─────────────────────────────────────────────────────────
+let activeMood = null;
+const moodEmoji = {monsoon:'🌧️',history:'🏯',wildlife:'🐆',trek:'🧗',peace:'🕊️'};
+
+function toggleMood(mood){
+  if(activeMood===mood){clearMood();return;}
+  activeMood=mood;
+  document.querySelectorAll('.mood-btn').forEach(b=>b.classList.toggle('active',b.dataset.mood===mood));
+  document.getElementById('mood-clear').style.display='inline';
+  renderMoodFilter(mood);
+}
+
+function clearMood(){
+  activeMood=null;
+  document.querySelectorAll('.mood-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('mood-clear').style.display='none';
+  const first=Object.keys(D)[0];
+  setA(document.querySelectorAll('.nav button')[1]);
+  render(first);
+}
+
+function renderMoodFilter(mood){
+  document.getElementById('search-bar').style.display='flex';
+  document.getElementById('search').value='';
+  document.getElementById('budget-filter').value='';
+  const titles={monsoon:'🌧️ Monsoon Magic Destinations',history:'🏯 History & Forts',wildlife:'🐆 Wildlife & Nature',trek:'🧗 Adventure & Trek',peace:'🕊️ Peace & Solitude'};
+  let html=`<div class="mood-header">${titles[mood]} <span>— matching destinations across all categories</span></div>`;
+  const ids=[];
+  Object.entries(D).forEach(([cat,ps])=>{
+    const matching=ps.filter(p=>p.moods&&p.moods.includes(mood));
+    if(!matching.length) return;
+    html+=`<div class="sec-ttl">${cat.toUpperCase()} <span style="opacity:.6;font-size:.8em">(${matching.length} match)</span></div><div class="grid">`;
+    matching.forEach((p,i)=>{
+      const idx='mood'+mood+cat.replace(/\s/g,'')+i+(gIdx++);
+      ids.push({wiki:p.wiki,pid:'_p'+idx,name:p.name});
+      const bMin=parseInt((p.budget.match(/[\d,]+/)||['0'])[0].replace(',',''))||0;
+      html+=`<div class="card-wrap" style="animation-delay:${i*0.05}s" data-name="${p.name}" data-state="${p.state}" data-acts="${p.acts.map(a=>a[1]).join(' ')}" data-bmin="${bMin}">${card(p,idx)}</div>`;
+    });
+    html+='</div>';
+  });
+  html+='<div id="no-results" class="no-results" style="display:none">No destinations match your search 😔</div>';
+  document.getElementById('content').innerHTML=html;
+  document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active'));
+  setTimeout(()=>ids.forEach(({wiki,pid,name})=>loadCoverImg(wiki,name,pid)),80);
+}
+
+// ─────────────────────────────────────────────────────────
+// SURPRISE ME
+// ─────────────────────────────────────────────────────────
+function surpriseMe(){
+  const allPlaces=[];
+  Object.entries(D).forEach(([cat,ps])=>ps.forEach(p=>allPlaces.push({p,cat})));
+  const pick=allPlaces[Math.floor(Math.random()*allPlaces.length)];
+  showToast('🎲 Taking you to '+pick.p.name+'!');
+  const btns=document.querySelectorAll('.nav button');
+  btns.forEach(b=>{if(b.textContent.includes(pick.cat)){setA(b);}});
+  render(pick.cat);
+  setTimeout(()=>openLB(pick.p.wiki,pick.p.name,pick.p.state),500);
+}
+
+// ─────────────────────────────────────────────────────────
+// TOAST
+// ─────────────────────────────────────────────────────────
+function showToast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2800);
+}
+
+// ─────────────────────────────────────────────────────────
+// ANIMATED STAT COUNTERS
+// ─────────────────────────────────────────────────────────
+function animateCounter(el,target,duration){
+  let start=0;
+  const step=target/(duration/16);
+  function update(){
+    start=Math.min(start+step,target);
+    el.textContent=Math.floor(start);
+    if(start<target) requestAnimationFrame(update);
+    else el.textContent=target;
+  }
+  requestAnimationFrame(update);
+}
+
+// ─────────────────────────────────────────────────────────
+// RAIN ANIMATION
+// ─────────────────────────────────────────────────────────
+function initRain(){
+  const canvas=document.getElementById('rain-canvas');
+  if(!canvas) return;
+  const ctx=canvas.getContext('2d');
+  function resize(){canvas.width=canvas.offsetWidth;canvas.height=canvas.offsetHeight;}
+  resize();
+  window.addEventListener('resize',resize);
+  const drops=[];
+  for(let i=0;i<100;i++){
+    drops.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,speed:1.5+Math.random()*2.5,length:8+Math.random()*18,opacity:0.1+Math.random()*0.3});
+  }
+  function draw(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    drops.forEach(d=>{
+      ctx.beginPath();
+      ctx.strokeStyle=`rgba(77,182,172,${d.opacity})`;
+      ctx.lineWidth=0.6;
+      ctx.moveTo(d.x,d.y);
+      ctx.lineTo(d.x-1,d.y+d.length);
+      ctx.stroke();
+      d.y+=d.speed;
+      if(d.y>canvas.height){d.y=-d.length;d.x=Math.random()*canvas.width;}
+    });
+    requestAnimationFrame(draw);
+  }
+  draw();
+}
+
+const catIcons={"Popular Picks":"⭐","Hidden Gems":"💎","Beyond Uttarakhand":"🌄","Punjab":"🙏","Gujarat":"🦁","Maharashtra":"🏯","Maharashtra Forts":"⚔️","MP Forts":"🏰","Rajasthan Monsoon":"🌧️","Northeast India":"🌿","South India":"☀️"};
+
+function buildNav(){
+  const nav=document.getElementById('nav');
+  const ab=document.createElement('button');
+  ab.textContent='📊 All 60 Places';
+  ab.onclick=()=>{setA(ab);summary();};
+  nav.appendChild(ab);
+  Object.keys(D).forEach((nm,i)=>{
+    const btn=document.createElement('button');
+    const icon=catIcons[nm]||'📍';
+    btn.textContent=`${icon} ${nm} (${D[nm].length})`;
+    if(i===0) btn.classList.add('active');
+    btn.onclick=()=>{setA(btn);render(nm);};
+    nav.appendChild(btn);
+  });
+}
+function setA(el){document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('active'));el.classList.add('active');}
+
+buildNav();
+render(Object.keys(D)[0]);
+
+// init counters
+const dc=document.getElementById('stat-dest');
+const sc=document.getElementById('stat-states');
+if(dc){let n=0;const t=setInterval(()=>{n+=3;dc.textContent=Math.min(n,60);if(n>=60)clearInterval(t);},20);}
+if(sc){let n=0;const t=setInterval(()=>{n++;sc.textContent=Math.min(n,14);if(n>=14)clearInterval(t);},60);}
+
+// init rain
+initRain();
+</script>
+<div id="toast"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Render Blueprint - India Trip Planner
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: trip-planner
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
