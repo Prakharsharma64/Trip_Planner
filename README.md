@@ -37,14 +37,6 @@ A multi-user bucket list app with 159 destinations across 28 states and 8 UTs. L
    ```
    Open http://localhost:5173
 
-## Login Credentials
-
-| Name | Email | Password | Role |
-|------|-------|----------|------|
-| Prakhar Sharma | prakhar@tripplanner.in | PrakharAdmin@2026 | admin |
-| Abhinav Jain | abhinav@tripplanner.in | AbhinavUser@2026 | user |
-| Harshit Chauhan | harshit@tripplanner.in | HarshitUser@2026 | user |
-
 ## Run Both (Development)
 
 ```bash
